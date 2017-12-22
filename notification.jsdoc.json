@@ -1,0 +1,128 @@
+[
+  {
+    "comment": "/**\n * The notification manager allows different AthenaJS components to send/receive\n * events.\n */",
+    "meta": {
+      "range": [
+        132,
+        1430
+      ],
+      "filename": "NotificationManager.js",
+      "lineno": 7,
+      "columnno": 6,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Notification",
+      "code": {
+        "id": "astnode100000007",
+        "name": "NotificationManager",
+        "type": "ObjectExpression",
+        "value": "{\"notify\":\"\",\"listen\":\"\"}"
+      }
+    },
+    "description": "The notification manager allows different AthenaJS components to send/receive\nevents.",
+    "name": "NotificationManager",
+    "longname": "NotificationManager",
+    "kind": "constant",
+    "scope": "global",
+    "params": [],
+    "$longname": "NotificationManager",
+    "$members": [
+      {
+        "comment": "/**\n     * Listen to a particular event\n     *\n     * @param {String} eventType The event to listen to.\n     * @param {Function} method The callback function to call when notified.\n     */",
+        "meta": {
+          "range": [
+            1019,
+            1428
+          ],
+          "filename": "NotificationManager.js",
+          "lineno": 32,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Notification",
+          "code": {
+            "id": "astnode100000057",
+            "name": "listen",
+            "type": "FunctionExpression"
+          },
+          "vars": {
+            "eventList": "NotificationManager.listen~eventList",
+            "": null
+          }
+        },
+        "description": "Listen to a particular event",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The event to listen to.",
+            "name": "eventType"
+          },
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The callback function to call when notified.",
+            "name": "method"
+          }
+        ],
+        "name": "listen",
+        "longname": "NotificationManager.listen",
+        "kind": "function",
+        "memberof": "NotificationManager",
+        "scope": "static",
+        "$longname": "NotificationManager.listen"
+      },
+      {
+        "comment": "/**\n     * Notifies all listeners\n     *\n     * @param {String} eventType The event to send.\n     * @param {any} data The data to send with the event.\n     *\n     * Every listener that has subscribed to this event will be notified.\n     */",
+        "meta": {
+          "range": [
+            404,
+            820
+          ],
+          "filename": "NotificationManager.js",
+          "lineno": 16,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Notification",
+          "code": {
+            "id": "astnode100000010",
+            "name": "notify",
+            "type": "FunctionExpression"
+          },
+          "vars": {
+            "params": "NotificationManager.notify~params",
+            "": null
+          }
+        },
+        "description": "Notifies all listeners",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The event to send.",
+            "name": "eventType"
+          },
+          {
+            "type": {
+              "names": [
+                "any"
+              ]
+            },
+            "description": "The data to send with the event.\n\nEvery listener that has subscribed to this event will be notified.",
+            "name": "data"
+          }
+        ],
+        "name": "notify",
+        "longname": "NotificationManager.notify",
+        "kind": "function",
+        "memberof": "NotificationManager",
+        "scope": "static",
+        "$longname": "NotificationManager.notify"
+      }
+    ]
+  }
+]

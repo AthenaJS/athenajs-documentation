@@ -1,0 +1,512 @@
+[
+  {
+    "comment": "/**\n * The `Game` class is the central part to AthenaJS.\n *\n * @param {Object} [options={}]\n * @param {Boolean} [options.debug=false] Debug will be enabled if this is true.\n * @param {String} [options.name] The name of the game.\n * @param {String|HTMLElement} [options.target=\"Dom('div')\"] target The DOM target of the game: this is where the game canvas elements will be added.\n * By default the target is a new Div that is appened to the body element.\n * @param {Boolean} [options.showFps=false] A little fps counter will be displayed if this is true.\n * @param {Number} [options.width=1024] The width of the game display.\n * @param {Number} [options.height=768] The height of the game display.\n * @param {Object} [options.resources] An optionnal array of resources of the form:`{ id: 'unique id', type: 'image|script|map|audio', src: 'path_to_resource'}` that the scene needs.\n * @example\n * import { Game } from 'athenajs';\n *\n * const myGame = new Game({\n *    name: 'first-game',\n *    width: 320,\n *    height: 200\n * });\n */",
+    "meta": {
+      "range": [
+        1386,
+        16839
+      ],
+      "filename": "Game.js",
+      "lineno": 30,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+      "code": {
+        "id": "astnode100000030",
+        "name": "Game",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options"
+        ]
+      }
+    },
+    "classdesc": "The `Game` class is the central part to AthenaJS.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "{}",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": false,
+        "description": "Debug will be enabled if this is true.",
+        "name": "options.debug"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "description": "The name of the game.",
+        "name": "options.name"
+      },
+      {
+        "type": {
+          "names": [
+            "String",
+            "HTMLElement"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"Dom('div')\"",
+        "description": "target The DOM target of the game: this is where the game canvas elements will be added.\nBy default the target is a new Div that is appened to the body element.",
+        "name": "options.target"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": false,
+        "description": "A little fps counter will be displayed if this is true.",
+        "name": "options.showFps"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": 1024,
+        "description": "The width of the game display.",
+        "name": "options.width"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": 768,
+        "description": "The height of the game display.",
+        "name": "options.height"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "optional": true,
+        "description": "An optionnal array of resources of the form:`{ id: 'unique id', type: 'image|script|map|audio', src: 'path_to_resource'}` that the scene needs.",
+        "name": "options.resources"
+      }
+    ],
+    "examples": [
+      "import { Game } from 'athenajs';\n\nconst myGame = new Game({\n   name: 'first-game',\n   width: 320,\n   height: 200\n});"
+    ],
+    "name": "Game",
+    "longname": "Game",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new Game",
+    "$longname": "Game",
+    "$members": [
+      {
+        "comment": "/**\n     * Get ready for events from NotificationManager\n     *\n     * @param {String} eventList space-separated list of events to listen to\n     *\n     */",
+        "meta": {
+          "range": [
+            8427,
+            8511
+          ],
+          "filename": "Game.js",
+          "lineno": 227,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100000827",
+            "name": "Game#bindEvents",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "eventList"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Get ready for events from NotificationManager",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "space-separated list of events to listen to",
+            "name": "eventList"
+          }
+        ],
+        "name": "bindEvents",
+        "longname": "Game#bindEvents",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "$longname": "Game#bindEvents"
+      },
+      {
+        "comment": "/**\n     * Method that gets called when receiving an event: by default it does nothing\n     * It's up to the developer to override this method on its Game\n     *\n     * @param {String} event the event name that got fired.\n     *\n     */",
+        "meta": {
+          "range": [
+            8759,
+            8796
+          ],
+          "filename": "Game.js",
+          "lineno": 239,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100000845",
+            "name": "Game#onEvent",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "event"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Method that gets called when receiving an event: by default it does nothing\nIt's up to the developer to override this method on its Game",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "the event name that got fired.",
+            "name": "event"
+          }
+        ],
+        "name": "onEvent",
+        "longname": "Game#onEvent",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "$longname": "Game#onEvent"
+      },
+      {
+        "comment": "/**\n     * Sets a new scene as the current scene\n     *\n     * @param {Scene} scene instance to set as current Scene\n     *\n     */",
+        "meta": {
+          "range": [
+            11521,
+            12410
+          ],
+          "filename": "Game.js",
+          "lineno": 335,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100001029",
+            "name": "Game#setScene",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "scene"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Sets a new scene as the current scene",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Scene"
+              ]
+            },
+            "description": "instance to set as current Scene",
+            "name": "scene"
+          }
+        ],
+        "name": "setScene",
+        "longname": "Game#setScene",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "$longname": "Game#setScene"
+      },
+      {
+        "comment": "/**\n     * Toggles fullscreen status\n     */",
+        "meta": {
+          "range": [
+            9073,
+            9182
+          ],
+          "filename": "Game.js",
+          "lineno": 258,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100000869",
+            "name": "Game#toggleFullscreen",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Toggles fullscreen status",
+        "name": "toggleFullscreen",
+        "longname": "Game#toggleFullscreen",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Game#toggleFullscreen"
+      },
+      {
+        "comment": "/**\n     * Pauses the game: both loops are stopped so almost no cpu/gpu is used when calling it\n     *\n     */",
+        "meta": {
+          "range": [
+            15678,
+            16260
+          ],
+          "filename": "Game.js",
+          "lineno": 477,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100001367",
+            "name": "Game#togglePause",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Pauses the game: both loops are stopped so almost no cpu/gpu is used when calling it",
+        "name": "togglePause",
+        "longname": "Game#togglePause",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Game#togglePause"
+      },
+      {
+        "comment": "/**\n     * Toggles global sound\n     *\n     * @param {Boolean} bool Weather to enable or disable sound.\n     *\n     */",
+        "meta": {
+          "range": [
+            8926,
+            9018
+          ],
+          "filename": "Game.js",
+          "lineno": 250,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100000852",
+            "name": "Game#toggleSound",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "bool"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Toggles global sound",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Boolean"
+              ]
+            },
+            "description": "Weather to enable or disable sound.",
+            "name": "bool"
+          }
+        ],
+        "name": "toggleSound",
+        "longname": "Game#toggleSound",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "$longname": "Game#toggleSound"
+      },
+      {
+        "comment": "/**\n     * Toggles the Map tiles inspector\n     *\n     * @param {Boolean} enable whether to enable the tileInspector\n     */",
+        "meta": {
+          "range": [
+            7794,
+            8261
+          ],
+          "filename": "Game.js",
+          "lineno": 207,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "code": {
+            "id": "astnode100000759",
+            "name": "Game#toggleTileInspector",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "enable"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Toggles the Map tiles inspector",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Boolean"
+              ]
+            },
+            "description": "whether to enable the tileInspector",
+            "name": "enable"
+          }
+        ],
+        "name": "toggleTileInspector",
+        "longname": "Game#toggleTileInspector",
+        "kind": "function",
+        "memberof": "Game",
+        "scope": "instance",
+        "$longname": "Game#toggleTileInspector"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new Game\n     *\n     * @param {Object} [options={}]\n     * @param {Boolean} [options.debug=false] Debug will be enabled if this is true.\n     * @param {String} [options.name] The name of the game.\n     * @param {String|HTMLElement} [options.target=\"Dom('div')\"] target The DOM target of the game: this is where the game canvas elements will be added.\n     * By default the target is a new Div that is appened to the body element.\n     * @param {Boolean} [options.showFps=false] A little fps counter will be displayed if this is true.\n     * @param {Number} [options.width=1024] The width of the game display.\n     * @param {Number} [options.height=768] The height of the game display.\n     * @param {Object} [options.resources] An optionnal array of resources of the form:`{ id: 'unique id', type: 'image|script|map|audio', src: 'path_to_resource'}` that the scene needs.\n    */",
+      "meta": {
+        "range": [
+          2307,
+          5124
+        ],
+        "filename": "Game.js",
+        "lineno": 44,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+        "code": {
+          "id": "astnode100000033",
+          "name": "Game",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new Game",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "{}",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": false,
+          "description": "Debug will be enabled if this is true.",
+          "name": "options.debug"
+        },
+        {
+          "type": {
+            "names": [
+              "String"
+            ]
+          },
+          "optional": true,
+          "description": "The name of the game.",
+          "name": "options.name"
+        },
+        {
+          "type": {
+            "names": [
+              "String",
+              "HTMLElement"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "\"Dom('div')\"",
+          "description": "target The DOM target of the game: this is where the game canvas elements will be added.\nBy default the target is a new Div that is appened to the body element.",
+          "name": "options.target"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": false,
+          "description": "A little fps counter will be displayed if this is true.",
+          "name": "options.showFps"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": 1024,
+          "description": "The width of the game display.",
+          "name": "options.width"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": 768,
+          "description": "The height of the game display.",
+          "name": "options.height"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "optional": true,
+          "description": "An optionnal array of resources of the form:`{ id: 'unique id', type: 'image|script|map|audio', src: 'path_to_resource'}` that the scene needs.",
+          "name": "options.resources"
+        }
+      ],
+      "name": "Game",
+      "longname": "Game",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Game"
+    }
+  }
+]

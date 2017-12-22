@@ -1,0 +1,102 @@
+
+<html><head></head><body><h1 id="athenajs">AthenaJS</h1>
+<hr />
+<p><img src="https://img.shields.io/npm/v/athenajs.svg" alt="npm">
+<img src="https://img.shields.io/github/release/athenajs/athenajs.svg" alt="release">
+<img src="http://img.shields.io/npm/l/athenajs.svg" alt="license">
+<img src="https://img.shields.io/maintenance/yes/2017.svg" alt="maintained"></p>
+<blockquote>
+<p>© 2017, Nicolas Ramz (<a href="https://www.github.com/warpdesign">@warpdesign</a>). MIT licence.</p>
+</blockquote>
+<p>A simple framework for building 2D games in HTML5 and JavaScript.</p>
+<h2 id="features">Features</h2>
+<p> Here is a non-exhaustive list of features of AthenaJS:</p>
+<ul>
+<li>Unlimited number of scenes with an unlimited number of sprites</li>
+<li>Image-based <strong>Sprites</strong> with any number of <strong>animations</strong></li>
+<li>Tiles-based Maps with horizontal &amp; vertical <strong>scrolling</strong></li>
+<li>Special scene transition effects like Fades, Mosaic can be added easily</li>
+<li>Map VS Sprite and Sprite vs Sprite collision detection</li>
+<li>Map <strong>Triggers</strong> support</li>
+<li>Sound support with volume and horizontal panning</li>
+<li><strong>Keyboard &amp; Joytisck</strong> input event supported (touch support is planned)</li>
+</ul>
+<h2 id="install">Install</h2>
+<pre><code>npm install athenajs --save
+</code></pre><h2 id="quick-start">Quick Start</h2>
+<p><strong>ES2015</strong></p>
+<pre><code class="lang-javascript">import { Game, Scene, SimpleText } from 'athenajs';
+
+// create a new game
+const myGame = new Game({
+    name: 'first-game',
+    width: 320,
+    height: 200
+}),
+// create a new empty scene
+myScene = new class MyScene extends Scene{
+    start() {
+        const myText = new SimpleText('my text', {
+            text: 'This is a test',
+            color: 'black'
+        });
+        // add the object onto the scene
+        this.addObject(myText);
+    }
+};
+
+// play this scene
+myGame.setScene(myScene);
+</code></pre>
+<p><strong>ES5</strong></p>
+<p>in your html file:</p>
+<pre><code class="lang-html">&lt;script type="text/javascript" src="athenajs.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+    window.onload = function() {
+    var Game = AthenaJS.Game,
+        Scene = AthenaJS.Scene,
+        SimpleText = AthenaJS.SimpleText;
+
+    // create a new game
+    var myGame = new Game({
+        name: 'first-game',
+        width: 320,
+        height: 200
+    });
+    // // create a new empty scene
+    // myScene = new class MyScene extends Scene{
+    //     start() {
+    //         const myText = new SimpleText('my text', {
+    //             text: 'This is a test',
+    //             color: 'black'
+    //         });
+    //         // add the object onto the scene
+    //         this.addObject(myText);
+    //     }
+    // };
+
+    // play this scene
+    myGame.setScene(myScene);
+&lt;/script&gt;
+</code></pre>
+<h2 id="apps-written-using-athenajs">Apps written using AthenaJS</h2>
+<ul>
+<li><a href="https://athenajs.github.io/athenajs-documentation/">Gods</a></li>
+<li><a href="https://github.com/AthenaJS/athenajs-samples">Tetris</a></li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>If you are interested in contributing to the AthenaJS code base, simply fork the repository and make a pull-request.</p>
+<p>Once you have cloned the repository, simply type:</p>
+<pre><code class="lang-bash">npm install &amp;&amp; npm link &amp;&amp; npm start
+</code></pre>
+<p>This will install the prerequisites, add a link to athenajs into your global npm modules directory and build &amp; start watching for changes.</p>
+<p>Now to start using athenaJS for testing, simply type the following in the directory of your project using AthenaJS:</p>
+<pre><code class="lang-bash">npm link athenajs
+</code></pre>
+<p>This will add a link from your project to the global athenajs link that was just created.</p>
+<h2 id="credits">Credits</h2>
+<p>Athena JS icon by <a href="https://icons8.com/">Icons8</a>. Used under open-source licence.</p>
+<h2 id="license">License</h2>
+<p>Copyright (c) Nicolas Ramz.</p>
+<p>Licensed under the <a href="LICENSE">MIT</a> License.</p>
+</body></html>

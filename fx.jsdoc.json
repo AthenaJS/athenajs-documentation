@@ -1,0 +1,1989 @@
+[
+  {
+    "comment": "/**\n * Custom effect that can be used to do any transformation.\n * \n * Supported on: {@link ?api=drawable#Drawable|`Drawable`}, {@link ?api=scene#Scene|`Scene`}\n * \n * @extends Effect\n */",
+    "meta": {
+      "range": [
+        220,
+        1450
+      ],
+      "filename": "Custom.js",
+      "lineno": 10,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000163",
+        "name": "Custom",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options",
+          "display"
+        ]
+      }
+    },
+    "classdesc": "Custom effect that can be used to do any transformation.\n\nSupported on: {@link ?api=drawable#Drawable|`Drawable`}, {@link ?api=scene#Scene|`Scene`}",
+    "augments": [
+      "Effect"
+    ],
+    "name": "Custom",
+    "longname": "Custom",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new Custom effect",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "Effect options.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "description": "The callback that will get called at each update tick: this is were the transformation will happen.",
+        "name": "options.callback"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "the start value of the effect.",
+        "name": "options.startValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "the end value of the effect.",
+        "name": "options.endValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true to make the effect loop.",
+        "name": "options.loop"
+      },
+      {
+        "type": {
+          "names": [
+            "Display"
+          ]
+        },
+        "description": "Reference to the Display in case a buffer is needed.",
+        "name": "display"
+      }
+    ],
+    "$longname": "Custom",
+    "$members": [
+      {
+        "comment": "/**\n     * Process the custom effect: this method simply calls the user's callback\n     * \n     * @param {RenderingContext} ctx The `source`rendering context.\n     * @param {RenderingContext} fxCtx The `destination` context.\n     * \n     * @returns {Boolean} true when the animation has ended.\n     */",
+        "meta": {
+          "range": [
+            1274,
+            1448
+          ],
+          "filename": "Custom.js",
+          "lineno": 36,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000198",
+            "name": "Custom#process",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "ctx",
+              "fxCtx"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Process the custom effect: this method simply calls the user's callback",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "RenderingContext"
+              ]
+            },
+            "description": "The `source`rendering context.",
+            "name": "ctx"
+          },
+          {
+            "type": {
+              "names": [
+                "RenderingContext"
+              ]
+            },
+            "description": "The `destination` context.",
+            "name": "fxCtx"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Boolean"
+              ]
+            },
+            "description": "true when the animation has ended."
+          }
+        ],
+        "name": "process",
+        "longname": "Custom#process",
+        "kind": "function",
+        "memberof": "Custom",
+        "scope": "instance",
+        "overrides": "Effect#process",
+        "$longname": "Custom#process"
+      },
+      {
+        "comment": "/**\n     * Changes the easing function used for the ffect\n     *\n     * @param {Function} easing The new easing function.\n     */",
+        "meta": {
+          "range": [
+            1652,
+            1707
+          ],
+          "filename": "Effect.js",
+          "lineno": 45,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000350",
+            "name": "Effect#setEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easing"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Changes the easing function used for the ffect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The new easing function.",
+            "name": "easing"
+          }
+        ],
+        "name": "setEasing",
+        "longname": "Custom#setEasing",
+        "kind": "function",
+        "memberof": "Custom",
+        "scope": "instance",
+        "inherits": "Effect#setEasing",
+        "inherited": true,
+        "$longname": "Custom#setEasing"
+      },
+      {
+        "comment": "/**\n     * Called when the ffect is started.\n     *\n     * This method can be overriden but the super should always be called\n     */",
+        "meta": {
+          "range": [
+            1851,
+            2147
+          ],
+          "filename": "Effect.js",
+          "lineno": 54,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000361",
+            "name": "Effect#start",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Called when the ffect is started.\n\nThis method can be overriden but the super should always be called",
+        "name": "start",
+        "longname": "Custom#start",
+        "kind": "function",
+        "memberof": "Custom",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Effect#start",
+        "inherited": true,
+        "$longname": "Custom#start"
+      },
+      {
+        "comment": "/**\n     * called when the effect is stopped\n     */",
+        "meta": {
+          "range": [
+            2210,
+            2272
+          ],
+          "filename": "Effect.js",
+          "lineno": 71,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000406",
+            "name": "Effect#stop",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "object",
+              "setEndValue"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "called when the effect is stopped",
+        "name": "stop",
+        "longname": "Custom#stop",
+        "kind": "function",
+        "memberof": "Custom",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Effect#stop",
+        "inherited": true,
+        "$longname": "Custom#stop"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new Custom effect\n     * @param {Object} options Effect options.\n     * @param {Function} options.callback The callback that will get called at each update tick: this is were the transformation will happen.\n     * @param {Number} options.startValue the start value of the effect.\n     * @param {Number} options.endValue the end value of the effect.\n     * @param {Boolean} options.loop Set to true to make the effect loop.\n     * @param {Display} display Reference to the Display in case a buffer is needed.\n     */",
+      "meta": {
+        "range": [
+          795,
+          962
+        ],
+        "filename": "Custom.js",
+        "lineno": 20,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+        "code": {
+          "id": "astnode100000167",
+          "name": "Custom",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options",
+            "display"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new Custom effect",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "Effect options.",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "function"
+            ]
+          },
+          "description": "The callback that will get called at each update tick: this is were the transformation will happen.",
+          "name": "options.callback"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "the start value of the effect.",
+          "name": "options.startValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "the end value of the effect.",
+          "name": "options.endValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true to make the effect loop.",
+          "name": "options.loop"
+        },
+        {
+          "type": {
+            "names": [
+              "Display"
+            ]
+          },
+          "description": "Reference to the Display in case a buffer is needed.",
+          "name": "display"
+        }
+      ],
+      "name": "Custom",
+      "longname": "Custom",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Custom"
+    }
+  },
+  {
+    "comment": "/**\n * This object contains some built-in easing functions that are used\n * when applying effects and scrollings in AthenaJS.\n */",
+    "meta": {
+      "range": [
+        161,
+        819
+      ],
+      "filename": "Easing.js",
+      "lineno": 7,
+      "columnno": 6,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Easing",
+      "code": {
+        "id": "astnode100000007",
+        "name": "Easing",
+        "type": "ObjectExpression",
+        "value": "{\"undefined\":\"\"}"
+      }
+    },
+    "description": "This object contains some built-in easing functions that are used\nwhen applying effects and scrollings in AthenaJS.",
+    "name": "Easing",
+    "longname": "Easing",
+    "kind": "constant",
+    "scope": "global",
+    "params": [],
+    "$longname": "Easing"
+  },
+  {
+    "comment": "/**\n * The Effect class allows to apply transformations to Scene & Drawable instances.\n *\n * An effect can modifiy a properties and/or alter the rendering of a scene.\n *\n * Effects can use a custom easing function to allow elastic like animations.\n */",
+    "meta": {
+      "range": [
+        297,
+        3538
+      ],
+      "filename": "Effect.js",
+      "lineno": 10,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000239",
+        "name": "Effect",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options",
+          "display"
+        ]
+      }
+    },
+    "classdesc": "The Effect class allows to apply transformations to Scene & Drawable instances.\n\nAn effect can modifiy a properties and/or alter the rendering of a scene.\n\nEffects can use a custom easing function to allow elastic like animations.",
+    "name": "Effect",
+    "longname": "Effect",
+    "kind": "class",
+    "scope": "global",
+    "description": "This the class constructor. Default options are:",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The start value of the effect.",
+        "name": "options.startValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The end value of the effect.",
+        "name": "options.endValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The duration of the effect (ms).*",
+        "name": "options.duration"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true to make the effect loop.",
+        "name": "options.loop"
+      },
+      {
+        "type": {
+          "names": [
+            "Display"
+          ]
+        },
+        "description": "Reference to the Display in case a buffer is needed.",
+        "name": "display"
+      }
+    ],
+    "$longname": "Effect",
+    "$members": [
+      {
+        "comment": "/**\n     * Calculates current animation process\n     *\n     * This method can be overridden but the super should always be calle dfirst\n     */",
+        "meta": {
+          "range": [
+            2426,
+            3536
+          ],
+          "filename": "Effect.js",
+          "lineno": 80,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000418",
+            "name": "Effect#process",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "ctx",
+              "fxCtx",
+              "obj"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Calculates current animation process\n\nThis method can be overridden but the super should always be calle dfirst",
+        "name": "process",
+        "longname": "Effect#process",
+        "kind": "function",
+        "memberof": "Effect",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Effect#process"
+      },
+      {
+        "comment": "/**\n     * Changes the easing function used for the ffect\n     *\n     * @param {Function} easing The new easing function.\n     */",
+        "meta": {
+          "range": [
+            1652,
+            1707
+          ],
+          "filename": "Effect.js",
+          "lineno": 45,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000350",
+            "name": "Effect#setEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easing"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Changes the easing function used for the ffect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The new easing function.",
+            "name": "easing"
+          }
+        ],
+        "name": "setEasing",
+        "longname": "Effect#setEasing",
+        "kind": "function",
+        "memberof": "Effect",
+        "scope": "instance",
+        "$longname": "Effect#setEasing"
+      },
+      {
+        "comment": "/**\n     * Called when the ffect is started.\n     *\n     * This method can be overriden but the super should always be called\n     */",
+        "meta": {
+          "range": [
+            1851,
+            2147
+          ],
+          "filename": "Effect.js",
+          "lineno": 54,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000361",
+            "name": "Effect#start",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Called when the ffect is started.\n\nThis method can be overriden but the super should always be called",
+        "name": "start",
+        "longname": "Effect#start",
+        "kind": "function",
+        "memberof": "Effect",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Effect#start"
+      },
+      {
+        "comment": "/**\n     * called when the effect is stopped\n     */",
+        "meta": {
+          "range": [
+            2210,
+            2272
+          ],
+          "filename": "Effect.js",
+          "lineno": 71,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000406",
+            "name": "Effect#stop",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "object",
+              "setEndValue"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "called when the effect is stopped",
+        "name": "stop",
+        "longname": "Effect#stop",
+        "kind": "function",
+        "memberof": "Effect",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Effect#stop"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * This the class constructor. Default options are:\n     *\n     * @param {Object} options\n     * @param {Number} options.startValue The start value of the effect.\n     * @param {Number} options.endValue The end value of the effect.\n     * @param {Number} options.duration The duration of the effect (ms).*\n     * @param {Boolean} options.loop Set to true to make the effect loop.\n     * @param {Display} display Reference to the Display in case a buffer is needed.\n     */",
+      "meta": {
+        "range": [
+          801,
+          1512
+        ],
+        "filename": "Effect.js",
+        "lineno": 21,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+        "code": {
+          "id": "astnode100000242",
+          "name": "Effect",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options",
+            "display"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "This the class constructor. Default options are:",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The start value of the effect.",
+          "name": "options.startValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The end value of the effect.",
+          "name": "options.endValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The duration of the effect (ms).*",
+          "name": "options.duration"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true to make the effect loop.",
+          "name": "options.loop"
+        },
+        {
+          "type": {
+            "names": [
+              "Display"
+            ]
+          },
+          "description": "Reference to the Display in case a buffer is needed.",
+          "name": "display"
+        }
+      ],
+      "name": "Effect",
+      "longname": "Effect",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Effect"
+    }
+  },
+  {
+    "comment": "/**\n * Fading effect\n * \n * Supported on: `Drawable`, `Scene`\n * \n * @extends Effect\n */",
+    "meta": {
+      "range": [
+        121,
+        1524
+      ],
+      "filename": "Fade.js",
+      "lineno": 10,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000531",
+        "name": "Fade",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options",
+          "display"
+        ]
+      }
+    },
+    "classdesc": "Fading effect\n\nSupported on: `Drawable`, `Scene`",
+    "augments": [
+      "Effect"
+    ],
+    "name": "Fade",
+    "longname": "Fade",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a Fade Effect",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "the start value of the effect.",
+        "name": "options.startValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "the end value of the effect.",
+        "name": "options.endValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true to make the effect loop.",
+        "name": "options.loop"
+      },
+      {
+        "type": {
+          "names": [
+            "Display"
+          ]
+        },
+        "description": "Reference to the Display in case a buffer is needed.",
+        "name": "display"
+      }
+    ],
+    "$longname": "Fade",
+    "$members": [
+      {
+        "comment": "/**\n     * \n     * @param {enderingContext} ctx The `source`rendering context.\n     * @param {RenderingContext} fxCtx The `destination` context.\n     * @param {Drawable} obj The Drawable on which to execute the ffect.\n     */",
+        "meta": {
+          "range": [
+            1311,
+            1522
+          ],
+          "filename": "Fade.js",
+          "lineno": 48,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000612",
+            "name": "Fade#process",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "ctx",
+              "fxCtx",
+              "obj"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "params": [
+          {
+            "type": {
+              "names": [
+                "enderingContext"
+              ]
+            },
+            "description": "The `source`rendering context.",
+            "name": "ctx"
+          },
+          {
+            "type": {
+              "names": [
+                "RenderingContext"
+              ]
+            },
+            "description": "The `destination` context.",
+            "name": "fxCtx"
+          },
+          {
+            "type": {
+              "names": [
+                "Drawable"
+              ]
+            },
+            "description": "The Drawable on which to execute the ffect.",
+            "name": "obj"
+          }
+        ],
+        "name": "process",
+        "longname": "Fade#process",
+        "kind": "function",
+        "memberof": "Fade",
+        "scope": "instance",
+        "overrides": "Effect#process",
+        "$longname": "Fade#process"
+      },
+      {
+        "comment": "/**\n     * Changes the easing function used for the ffect\n     *\n     * @param {Function} easing The new easing function.\n     */",
+        "meta": {
+          "range": [
+            1652,
+            1707
+          ],
+          "filename": "Effect.js",
+          "lineno": 45,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000350",
+            "name": "Effect#setEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easing"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Changes the easing function used for the ffect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The new easing function.",
+            "name": "easing"
+          }
+        ],
+        "name": "setEasing",
+        "longname": "Fade#setEasing",
+        "kind": "function",
+        "memberof": "Fade",
+        "scope": "instance",
+        "inherits": "Effect#setEasing",
+        "inherited": true,
+        "$longname": "Fade#setEasing"
+      },
+      {
+        "comment": "/**\n     * Initializes the effect\n     */",
+        "meta": {
+          "range": [
+            956,
+            1075
+          ],
+          "filename": "Fade.js",
+          "lineno": 35,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000597",
+            "name": "Fade#start",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Initializes the effect",
+        "name": "start",
+        "longname": "Fade#start",
+        "kind": "function",
+        "memberof": "Fade",
+        "scope": "instance",
+        "params": [],
+        "overrides": "Effect#start",
+        "$longname": "Fade#start"
+      },
+      {
+        "comment": "/**\n     * called when the effect is stopped\n     */",
+        "meta": {
+          "range": [
+            2210,
+            2272
+          ],
+          "filename": "Effect.js",
+          "lineno": 71,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000406",
+            "name": "Effect#stop",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "object",
+              "setEndValue"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "called when the effect is stopped",
+        "name": "stop",
+        "longname": "Fade#stop",
+        "kind": "function",
+        "memberof": "Fade",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Effect#stop",
+        "inherited": true,
+        "$longname": "Fade#stop"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a Fade Effect\n     * \n     * @param {Object} options\n     * @param {Number} options.startValue the start value of the effect.\n     * @param {Number} options.endValue the end value of the effect.\n     * @param {Boolean} options.loop Set to true to make the effect loop.\n     * @param {Display} display Reference to the Display in case a buffer is needed.\n     */",
+      "meta": {
+        "range": [
+          538,
+          904
+        ],
+        "filename": "Fade.js",
+        "lineno": 20,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+        "code": {
+          "id": "astnode100000535",
+          "name": "Fade",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options",
+            "display"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a Fade Effect",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "the start value of the effect.",
+          "name": "options.startValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "the end value of the effect.",
+          "name": "options.endValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true to make the effect loop.",
+          "name": "options.loop"
+        },
+        {
+          "type": {
+            "names": [
+              "Display"
+            ]
+          },
+          "description": "Reference to the Display in case a buffer is needed.",
+          "name": "display"
+        }
+      ],
+      "name": "Fade",
+      "longname": "Fade",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Fade"
+    }
+  },
+  {
+    "comment": "/**\n * The FX class is the entry point for accessing Drawing effects like Mosaic\n * and easing functions.\n * \n * Effects can be applied to Drawable and/or Scene instances.\n * \n * @see {@link #Effect|Effect}\n */",
+    "meta": {
+      "range": [
+        430,
+        1905
+      ],
+      "filename": "FX.js",
+      "lineno": 18,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+      "code": {
+        "id": "astnode100001035",
+        "name": "FX",
+        "type": "ClassDeclaration",
+        "paramnames": []
+      }
+    },
+    "classdesc": "The FX class is the entry point for accessing Drawing effects like Mosaic\nand easing functions.\n\nEffects can be applied to Drawable and/or Scene instances.",
+    "see": [
+      "{@link #Effect|Effect}"
+    ],
+    "name": "FX",
+    "longname": "FX",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates the FX class, adding the linear easing",
+    "params": [],
+    "$longname": "FX",
+    "$members": [
+      {
+        "comment": "/**\n     * Add a new easing function for other objects to use\n     * \n     * @param {String} easingName The name of the easing.\n     * @param {Function} easingFn The function to be used for easing. This function may use these parameters: `x , t, b, c, d`\n    */",
+        "meta": {
+          "range": [
+            1439,
+            1517
+          ],
+          "filename": "FX.js",
+          "lineno": 52,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+          "code": {
+            "id": "astnode100001072",
+            "name": "FX#addEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easingName",
+              "easingFn"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Add a new easing function for other objects to use",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the easing.",
+            "name": "easingName"
+          },
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The function to be used for easing. This function may use these parameters: `x , t, b, c, d`",
+            "name": "easingFn"
+          }
+        ],
+        "name": "addEasing",
+        "longname": "FX#addEasing",
+        "kind": "function",
+        "memberof": "FX",
+        "scope": "instance",
+        "$longname": "FX#addEasing"
+      },
+      {
+        "comment": "/**\n     * Add a new Effect\n     * @param {String} fxName The name of the effect to add.\n     * @param {Effect} FxClass The Effect Class to add.\n     */",
+        "meta": {
+          "range": [
+            851,
+            916
+          ],
+          "filename": "FX.js",
+          "lineno": 32,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+          "code": {
+            "id": "astnode100001051",
+            "name": "FX#addFX",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "fxName",
+              "FxClass"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Add a new Effect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the effect to add.",
+            "name": "fxName"
+          },
+          {
+            "type": {
+              "names": [
+                "Effect"
+              ]
+            },
+            "description": "The Effect Class to add.",
+            "name": "FxClass"
+          }
+        ],
+        "name": "addFX",
+        "longname": "FX#addFX",
+        "kind": "function",
+        "memberof": "FX",
+        "scope": "instance",
+        "$longname": "FX#addFX"
+      },
+      {
+        "comment": "/**\n     * Retrieves an easing function\n     * \n     * @param {String} easingName The name of the easing function to retrive.\n     * @returns {Function} The easing function, or linear function if it didn't exist.\n     */",
+        "meta": {
+          "range": [
+            1748,
+            1903
+          ],
+          "filename": "FX.js",
+          "lineno": 62,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+          "code": {
+            "id": "astnode100001084",
+            "name": "FX#getEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easingName"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Retrieves an easing function",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the easing function to retrive.",
+            "name": "easingName"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The easing function, or linear function if it didn't exist."
+          }
+        ],
+        "name": "getEasing",
+        "longname": "FX#getEasing",
+        "kind": "function",
+        "memberof": "FX",
+        "scope": "instance",
+        "$longname": "FX#getEasing"
+      },
+      {
+        "comment": "/**\n     * Retrieve an effect Class by its name\n     * \n     * @param {String} fxName The name of the Effect to retrive.\n     * @returns {Effect} the effect Class or undefined\n     */",
+        "meta": {
+          "range": [
+            1110,
+            1167
+          ],
+          "filename": "FX.js",
+          "lineno": 42,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+          "code": {
+            "id": "astnode100001063",
+            "name": "FX#getEffect",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "fxName"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Retrieve an effect Class by its name",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the Effect to retrive.",
+            "name": "fxName"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Effect"
+              ]
+            },
+            "description": "the effect Class or undefined"
+          }
+        ],
+        "name": "getEffect",
+        "longname": "FX#getEffect",
+        "kind": "function",
+        "memberof": "FX",
+        "scope": "instance",
+        "$longname": "FX#getEffect"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates the FX class, adding the linear easing\n     */",
+      "meta": {
+        "range": [
+          515,
+          688
+        ],
+        "filename": "FX.js",
+        "lineno": 22,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX",
+        "code": {
+          "id": "astnode100001038",
+          "name": "FX",
+          "type": "MethodDefinition",
+          "paramnames": []
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates the FX class, adding the linear easing",
+      "name": "FX",
+      "longname": "FX",
+      "kind": "class",
+      "scope": "global",
+      "params": [],
+      "undocumented": true,
+      "$longname": "FX"
+    }
+  },
+  {
+    "comment": "/**\n * Test :)\n */",
+    "meta": {
+      "range": [
+        2253,
+        2275
+      ],
+      "filename": "Mosaic.js",
+      "lineno": 74,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000854",
+        "name": "module.exports",
+        "type": "Identifier"
+      }
+    },
+    "description": "Test :)",
+    "name": "exports",
+    "longname": "module.exports",
+    "kind": "member",
+    "memberof": "module",
+    "scope": "static",
+    "$longname": "module.exports"
+  },
+  {
+    "comment": "/**\n * A Mosaic effect that will apply an {@link https://github.com/warpdesign/jquery-mosaic|SNES-like effects}.\n *\n * Supported on: `Drawable`, `Scene`\n *\n * @extends Effect\n */",
+    "meta": {
+      "range": [
+        211,
+        2231
+      ],
+      "filename": "Mosaic.js",
+      "lineno": 10,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000660",
+        "name": "Mosaic",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options",
+          "display"
+        ]
+      }
+    },
+    "classdesc": "A Mosaic effect that will apply an {@link https://github.com/warpdesign/jquery-mosaic|SNES-like effects}.\n\nSupported on: `Drawable`, `Scene`",
+    "augments": [
+      "Effect"
+    ],
+    "name": "Mosaic",
+    "longname": "Mosaic",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new Mosaic effect",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The start value of the effect.",
+        "name": "options.startValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The end value of the effect.",
+        "name": "options.endValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "The duration of the effect (ms).",
+        "name": "options.duration"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true to make the effect loop.",
+        "name": "options.loop"
+      },
+      {
+        "type": {
+          "names": [
+            "Display"
+          ]
+        },
+        "description": "Reference to the Display in case a buffer is needed.",
+        "name": "display"
+      }
+    ],
+    "$longname": "Mosaic",
+    "$members": [
+      {
+        "comment": "/**\n     * simulates the mosaic effect by using Canvas'drawImage API\n     *\n     * @param {CanvasRenderingConbtext} ctx The source drawing context, which happens to be the destination context as well.\n     */",
+        "meta": {
+          "range": [
+            1711,
+            2229
+          ],
+          "filename": "Mosaic.js",
+          "lineno": 54,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000758",
+            "name": "Mosaic#process",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "ctx"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "simulates the mosaic effect by using Canvas'drawImage API",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "CanvasRenderingConbtext"
+              ]
+            },
+            "description": "The source drawing context, which happens to be the destination context as well.",
+            "name": "ctx"
+          }
+        ],
+        "name": "process",
+        "longname": "Mosaic#process",
+        "kind": "function",
+        "memberof": "Mosaic",
+        "scope": "instance",
+        "overrides": "Effect#process",
+        "$longname": "Mosaic#process"
+      },
+      {
+        "comment": "/**\n     * Changes the easing function used for the ffect\n     *\n     * @param {Function} easing The new easing function.\n     */",
+        "meta": {
+          "range": [
+            1652,
+            1707
+          ],
+          "filename": "Effect.js",
+          "lineno": 45,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000350",
+            "name": "Effect#setEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easing"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Changes the easing function used for the ffect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The new easing function.",
+            "name": "easing"
+          }
+        ],
+        "name": "setEasing",
+        "longname": "Mosaic#setEasing",
+        "kind": "function",
+        "memberof": "Mosaic",
+        "scope": "instance",
+        "inherits": "Effect#setEasing",
+        "inherited": true,
+        "$longname": "Mosaic#setEasing"
+      },
+      {
+        "comment": "/**\n     * Initializes mosaic effect variables\n     */",
+        "meta": {
+          "range": [
+            1389,
+            1491
+          ],
+          "filename": "Mosaic.js",
+          "lineno": 42,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000737",
+            "name": "Mosaic#start",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Initializes mosaic effect variables",
+        "name": "start",
+        "longname": "Mosaic#start",
+        "kind": "function",
+        "memberof": "Mosaic",
+        "scope": "instance",
+        "params": [],
+        "overrides": "Effect#start",
+        "$longname": "Mosaic#start"
+      },
+      {
+        "comment": "/**\n     * called when the effect is stopped\n     */",
+        "meta": {
+          "range": [
+            2210,
+            2272
+          ],
+          "filename": "Effect.js",
+          "lineno": 71,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000406",
+            "name": "Effect#stop",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "object",
+              "setEndValue"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "called when the effect is stopped",
+        "name": "stop",
+        "longname": "Mosaic#stop",
+        "kind": "function",
+        "memberof": "Mosaic",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Effect#stop",
+        "inherited": true,
+        "$longname": "Mosaic#stop"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new Mosaic effect\n     *\n     * @param {Object} options\n     * @param {Number} options.startValue The start value of the effect.\n     * @param {Number} options.endValue The end value of the effect.\n     * @param {Number} options.duration The duration of the effect (ms).\n     * @param {Boolean} options.loop Set to true to make the effect loop.\n     * @param {Display} display Reference to the Display in case a buffer is needed.\n     */",
+      "meta": {
+        "range": [
+          708,
+          1324
+        ],
+        "filename": "Mosaic.js",
+        "lineno": 21,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+        "code": {
+          "id": "astnode100000664",
+          "name": "Mosaic",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options",
+            "display"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new Mosaic effect",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The start value of the effect.",
+          "name": "options.startValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The end value of the effect.",
+          "name": "options.endValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "The duration of the effect (ms).",
+          "name": "options.duration"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true to make the effect loop.",
+          "name": "options.loop"
+        },
+        {
+          "type": {
+            "names": [
+              "Display"
+            ]
+          },
+          "description": "Reference to the Display in case a buffer is needed.",
+          "name": "display"
+        }
+      ],
+      "name": "Mosaic",
+      "longname": "Mosaic",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Mosaic"
+    }
+  },
+  {
+    "comment": "/**\n * Rotating effect\n * \n * Supported on: `Drawables`\n * \n * @extends Effect\n */",
+    "meta": {
+      "range": [
+        115,
+        2064
+      ],
+      "filename": "Rotate.js",
+      "lineno": 10,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+      "code": {
+        "id": "astnode100000862",
+        "name": "Rotate",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "options",
+          "display"
+        ]
+      }
+    },
+    "classdesc": "Rotating effect\n\nSupported on: `Drawables`",
+    "augments": [
+      "Effect"
+    ],
+    "name": "Rotate",
+    "longname": "Rotate",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates the Rotate class",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "* @param {Number} options.startValue the start value of the effect.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "description": "the end value of the effect.",
+        "name": "options.endValue"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true to make the effect loop.",
+        "name": "options.loop"
+      },
+      {
+        "type": {
+          "names": [
+            "Display"
+          ]
+        },
+        "description": "Reference to the Display in case a buffer is needed.",
+        "name": "display"
+      }
+    ],
+    "$longname": "Rotate",
+    "$members": [
+      {
+        "comment": "/**\n     * Calculates the new angle\n     * \n     * @param {RenderingContext} ctx The rendering context (not used in this effect).\n     * @param {RenderingContext} fxCtx Tje effect rendering context (not used).\n     * @param {Drawable} obj Drawable on which to apply the rotation.\n     * \n     * @returns {Boolean} returns true if the animation has ended.\n     */",
+        "meta": {
+          "range": [
+            1857,
+            2062
+          ],
+          "filename": "Rotate.js",
+          "lineno": 64,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000968",
+            "name": "Rotate#process",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "ctx",
+              "fxCtx",
+              "obj"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Calculates the new angle",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "RenderingContext"
+              ]
+            },
+            "description": "The rendering context (not used in this effect).",
+            "name": "ctx"
+          },
+          {
+            "type": {
+              "names": [
+                "RenderingContext"
+              ]
+            },
+            "description": "Tje effect rendering context (not used).",
+            "name": "fxCtx"
+          },
+          {
+            "type": {
+              "names": [
+                "Drawable"
+              ]
+            },
+            "description": "Drawable on which to apply the rotation.",
+            "name": "obj"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Boolean"
+              ]
+            },
+            "description": "returns true if the animation has ended."
+          }
+        ],
+        "name": "process",
+        "longname": "Rotate#process",
+        "kind": "function",
+        "memberof": "Rotate",
+        "scope": "instance",
+        "overrides": "Effect#process",
+        "$longname": "Rotate#process"
+      },
+      {
+        "comment": "/**\n     * Changes the easing function used for the ffect\n     *\n     * @param {Function} easing The new easing function.\n     */",
+        "meta": {
+          "range": [
+            1652,
+            1707
+          ],
+          "filename": "Effect.js",
+          "lineno": 45,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000350",
+            "name": "Effect#setEasing",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "easing"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Changes the easing function used for the ffect",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The new easing function.",
+            "name": "easing"
+          }
+        ],
+        "name": "setEasing",
+        "longname": "Rotate#setEasing",
+        "kind": "function",
+        "memberof": "Rotate",
+        "scope": "instance",
+        "inherits": "Effect#setEasing",
+        "inherited": true,
+        "$longname": "Rotate#setEasing"
+      },
+      {
+        "comment": "/**\n     * Initializes the rotate effect\n     */",
+        "meta": {
+          "range": [
+            992,
+            1123
+          ],
+          "filename": "Rotate.js",
+          "lineno": 36,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000934",
+            "name": "Rotate#start",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Initializes the rotate effect",
+        "name": "start",
+        "longname": "Rotate#start",
+        "kind": "function",
+        "memberof": "Rotate",
+        "scope": "instance",
+        "params": [],
+        "overrides": "Effect#start",
+        "$longname": "Rotate#start"
+      },
+      {
+        "comment": "/**\n     * Stops the effect from running, setting the angle to specified endValue\n     * \n     * @param {Drawable} object The object on which changing the angle.\n     * @param {Number} endValue The angle value that will be set when the effect is stopped.\n     */",
+        "meta": {
+          "range": [
+            1396,
+            1484
+          ],
+          "filename": "Rotate.js",
+          "lineno": 49,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+          "code": {
+            "id": "astnode100000951",
+            "name": "Rotate#stop",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "object",
+              "endValue"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Stops the effect from running, setting the angle to specified endValue",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Drawable"
+              ]
+            },
+            "description": "The object on which changing the angle.",
+            "name": "object"
+          },
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle value that will be set when the effect is stopped.",
+            "name": "endValue"
+          }
+        ],
+        "name": "stop",
+        "longname": "Rotate#stop",
+        "kind": "function",
+        "memberof": "Rotate",
+        "scope": "instance",
+        "overrides": "Effect#stop",
+        "$longname": "Rotate#stop"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates the Rotate class\n     * \n     * @param {Object} options\n    ** @param {Number} options.startValue the start value of the effect.\n     * @param {Number} options.endValue the end value of the effect.\n     * @param {Boolean} options.loop Set to true to make the effect loop.\n     * @param {Display} display Reference to the Display in case a buffer is needed.\n     */",
+      "meta": {
+        "range": [
+          537,
+          933
+        ],
+        "filename": "Rotate.js",
+        "lineno": 20,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
+        "code": {
+          "id": "astnode100000866",
+          "name": "Rotate",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "options",
+            "display"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates the Rotate class",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "* @param {Number} options.startValue the start value of the effect.",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "description": "the end value of the effect.",
+          "name": "options.endValue"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true to make the effect loop.",
+          "name": "options.loop"
+        },
+        {
+          "type": {
+            "names": [
+              "Display"
+            ]
+          },
+          "description": "Reference to the Display in case a buffer is needed.",
+          "name": "display"
+        }
+      ],
+      "name": "Rotate",
+      "longname": "Rotate",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Rotate"
+    }
+  }
+]

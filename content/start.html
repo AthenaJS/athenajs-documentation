@@ -1,0 +1,254 @@
+
+<html><head></head><body><h1 id="getting-started-with-athenajs">Getting Started with AthenaJS</h1>
+<hr />
+<ul>
+<li><a href="#webpack-starter-template">WebpackStarterTemplate</a>: a one-command installer to get ready for AthenaJS development</li>
+<li><a href="#games-scenes">Games &amp; Scenes</a> Athena-JS core concepts: <strong>read this first</strong>!</li>
+<li><a href="#drawables">Drawables</a>: getting started with graphical elements</li>
+<li><a href="#going-further">Going Further</a></li>
+</ul>
+<h2 id="webpack-starter-template">Webpack Starter Template</h2>
+<p>The easiest way to get started is to clone the athena-starter <a href="repository">https://github.com/AthenaJS/athenajs-webpack-starter</a> and then type:</p>
+<pre><code class="lang-bash">npm install &amp;&amp; npm start
+</code></pre>
+<p>This will install all required dependencies and will get you ready to start developing using AthenaJS.</p>
+<p>Simply edit index.js and open the <code>http://127.0.0.1:8888</code> to test your changes.</p>
+<p>The following npm scripts are ready to use:</p>
+<ul>
+<li><code>npm start</code>: build development version and watch for file changes</li>
+<li><code>npm run build</code>: build a production version of your app</li>
+<li><code>npm run test</code>: run test suite with Jest</li>
+</ul>
+<h2 id="games-scenes">Games &amp; Scenes</h2>
+<p>At the core level of AthenaJS is the <a href="?api=game">Game</a> class. This is the entry point of every AthenaJS game.</p>
+<p>The game describes your game:</p>
+<ul>
+<li>its size</li>
+<li>where it will be displayed into the DOM</li>
+</ul>
+<p>To create a game you simple create a Game instance:</p>
+<pre><code class="lang-js">const myGame = new Game({
+    name: 'my-first-athena-game',
+    showFps: true,
+    width: 320,
+    height: 200,
+    debug: true
+});
+</code></pre>
+<p>This example will create a new Game with a (visible) screen of 320x200 pixels, with debug enabled, and will display a little FPS counter.</p>
+<p>A game in itself does nothing without a <a href="?api=scene">Scene</a> which is the second most important class in AthenaJS.</p>
+<p>The scene is where you put your <code>drawables</code> (graphical objects): just like in real life, this is where the action is happening.</p>
+<p>Creating a Scene, is as easy as:</p>
+<pre><code class="lang-js">const scene = new Scene();
+</code></pre>
+<p>A scene can have as many objects as you want. To add (and display) an object, you simply add it to your scene:</p>
+<pre><code class="lang-js">text = new SimpleText("nextString", {
+    text: "Canvas text",
+    x: 150,
+    y: 120,
+    color: 'black'
+});
+
+scene.addObject(text);
+</code></pre>
+<p>Finally, for the scene to become <em>active</em> and for your game to draw something, you simply use the <code>Game.setScene()</code> method, which will start executing your scene, and render whatever objects have been added into it:</p>
+<pre><code class="lang-js">myGame.setScene(scene);
+</code></pre>
+<p>Here are all these parts glued togeter:</p>
+<pre><code class="lang-js">import { Game, Scene, SimpleText } from 'athenajs';
+
+// create a new game with a 320x200 screen
+const myGame = new Game({
+    name: 'my-first-athena-game',
+    showFps: true,
+    width: 320,
+    height: 200,
+    debug: true
+});
+
+// create a new empty scene
+const scene = new Scene();
+
+// create a new SimpleText drawable
+text = new SimpleText("nextString", {
+    text: "Canvas text",
+    x: 150,
+    y: 120,
+    color: 'black'
+});
+
+// add a new text object onto the scene, at position 150, 120
+scene.addObject(text);
+
+// set `scene` as the active scene
+myGame.setScene(scene);
+</code></pre>
+<h2 id="drawables">Drawables</h2>
+<p> Every element that can be drawn onto the screen inherits from the <a href="?api=drawable#Drawable">Drawable</a> class which provides the following features:</p>
+<ul>
+<li>x/y position</li>
+<li>basic collision hitBox</li>
+<li>visibility/opacity</li>
+<li><p>scaling/rotation</p>
+<p>The following type of objects have been created on top of the Drawable class and can be used in your games.</p>
+</li>
+<li><p><a href="#sprite">Sprite</a>: stylesheet based image with any number of animations</p>
+</li>
+<li><a href="#simpletext">SimpleText</a>: Canvas-based text rendering</li>
+<li><a href="#bitmaptext">BitmapText</a>: text-rendering using a bitmap font</li>
+<li><a href="#paint">Paint</a>: for drawing shapes</li>
+</ul>
+<p>These are of course just examples and you can (and <strong>should</strong>) also extend <code>Drawable</code> to write your own drawables!</p>
+<h3 id="paint">Paint</h3>
+<p>The <a href="?api=drawable#Paint">Paint</a> class allows to manipulate drawing HTML5-Canvas functions without having to deal with the <em>rendering context</em> and other low-level Canvas stuff.</p>
+<p>The Paint class also benefits fromm every <code>Drawable</code> features: animation, colision, etc.</p>
+<p>Paint elements can be used on Scene as well as on Maps, just like any other Drawable.</p>
+<p>To draw something using the Paint class, you simply have to call any paint method inside the <code>render</code> method.</p>
+<p>For example, this will draw a smiley:</p>
+<pre><code class="lang-js">import { Paint } from 'athenajs';
+
+class Smiley extends Paint {
+    constructor(options) {
+        super(Paint.name, options);
+    }
+
+    render() {
+        // face
+        this.circle(0, 0, this.width / 2, 'yellow', 2, 'black');
+        // eyes
+        this.circle(this.width / 5, this.height / 3, this.width / 12, 'black');
+        this.circle(this.width - this.width / 3, this.height / 3, this.width / 12, 'black');
+        // mouth
+        this.arc(this.width / 2, this.height - this.height / 2.5, this.width / 4, 0, Math.PI, 'black', 2);
+    }
+}
+</code></pre>
+<h3 id="sprite">Sprite</h3>
+<p>The <a href="?api=drawable#Sprite">Sprite</a> class allows to draw sprite-based animations.</p>
+<p>A Sprite can have any number of animations each with any number of frames and with a different framerate.</p>
+<p>Each frame can also have a different <em>hitbox</em>.</p>
+<p>To add an animation you can do it the quick and easy way, using the <a href="?api=drawable#Sprite#addAnimation">Sprite.addAnimation</a> method:</p>
+<pre><code class="lang-js">class MySprite extends Sprite {
+    constructor(options) {
+        super('mySprite', options);
+
+        // add a new run animation that will use the sballer spritesheet
+        this.addAnimation('run', 'sballer', {
+            numFrames: 9,
+            frameWidth: 82,
+            frameHeight: 69,
+            frameDuration: 4
+        });
+    }
+}
+</code></pre>
+<p>This will use the whole frameWidth &amp; frameHeight as hitbox, and automatically set the <code>run</code> animation as current animation.</p>
+<p>The frameDuration is a multiple of <code>16ms</code> so using <code>frameDuration: 4</code> would mean that each frame of the animation would last <code>16*4=56ms</code>.</p>
+<p>You can also pass a <em>JSON</em> Object describing each frame to the Sprite's constructor.</p>
+<p>For example this code would create a new <code>Gem</code> Sprite with a <code>mainLoop</code> animation.</p>
+<pre><code class="lang-js">import { Sprite } from 'athenajs';
+
+class Gem extends Sprite {
+    constructor(options = {}) {
+        super('gem', {
+            imageId: 'objects',
+            x: options.x,
+            y: options.y,
+            pool: options.pool,
+            canCollide: true,
+            collideGroup: 1,
+            animations: {
+                mainLoop: {
+                    frameDuration: 4,
+                    frames: [{
+                        offsetX: 136,
+                        offsetY: 189,
+                        width: 31,
+                        height: 31,
+                        hitBox: {
+                            x: 0,
+                            y: 0,
+                            x2: 31,
+                            y2: 31
+                        },
+                        plane: 0
+                    },
+                    {
+                        offsetX: 170,
+                        offsetY: 189,
+                        width: 31,
+                        height: 31,
+                        hitBox: {
+                            x: 0,
+                            y: 0,
+                            x2: 31,
+                            y2: 31
+                        },
+                        plane: 0
+                    },
+                    {
+                        offsetX: 204,
+                        offsetY: 189,
+                        width: 31,
+                        height: 31,
+                        hitBox: {
+                            x: 0,
+                            y: 0,
+                            x2: 31,
+                            y2: 31
+                        },
+                        plane: 0
+                    }],
+                    loop: 1
+                }
+            }
+        });
+    }
+}
+</code></pre>
+<p>Note that the spritesheet used in the sprite must have previously been loaded.</p>
+<h3 id="bitmaptext">BitmapText</h3>
+<p>The <a href="?api=drawable#BitmapText">BitmapText</a> class allows to draw text using an image-based font.</p>
+<p>This class also allows to scroll text using the element's bounding box.</p>
+<p>Much like the Sprite drawable, the BitmapText class requires an image to have been loaded.</p>
+<p>Here is an example that will create a font using the <code>myFont</code> image with the following options:</p>
+<ul>
+<li>each character is 32x32 pixels</li>
+<li>each character + padding takes 34 pixels</li>
+<li>the drawing starts at y = 0</li>
+</ul>
+<pre><code class="lang-js">class MyFont extends BitmapText {
+    constructor(options) {
+        super('myFont', Object.assign({
+            width: 320,
+            height: 64,
+            charWidth: 32,
+            charHeight: 32,
+            imageId: 'myFont',
+            offsetX: 34,
+            startY: 2
+        }, options));
+    }
+}
+</code></pre>
+<p><strong>Note</strong> Right now, characters are limited to [A-Z0-9] set. The <code>options.characters</code> will later allow to have wider character set.</p>
+<h3 id="simpletext">SimpleText</h3>
+<p>The <a href="?api=drawable#SimpleText">SimpleText</a> class allows to draw text using any <em>TrueType</em> font supported by the browser.</p>
+<p>This class uses the HTML5 Canvas Text methods to draw fonts onto the screen.</p>
+<p>Using SimpleText is easy as:</p>
+<pre><code class="lang-js">const myText = new SimpleText("nextString", {
+    text: "Canvas text",
+    x: 150,
+    y: 120,
+    color: 'black'
+});
+</code></pre>
+<h2 id="going-further">Going Further</h2>
+<p>To go further, you can checkout the <em>athenajs-samples</em> <a href="repository">https://github.com/AthenaJS/athenajs-samples</a> which contains more advanced topics like:</p>
+<ul>
+<li>Maps</li>
+<li>Sound</li>
+<li>Behaviors</li>
+</ul>
+<p>For a complete game using AthenaJS you can have a look at <a href="AthenaJS-Tetris">https://github.com/AthenaJS/athenajs-tetris</a>.</p>
+</body></html>

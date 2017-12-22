@@ -1,0 +1,1576 @@
+[
+  {
+    "comment": "/**\n * Base class for behaviors.\n *\n * A behavior is a class that describes how a graphical object moves during the time.\n *\n * Every behavior should implement these two methods:\n *\n * - `onUpdate()`\n * \n * - `getMapEvent()`\n *\n */",
+    "meta": {
+      "range": [
+        232,
+        1747
+      ],
+      "filename": "Behavior.js",
+      "lineno": 13,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100000002",
+        "name": "Behavior",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "Base class for behaviors.\n\nA behavior is a class that describes how a graphical object moves during the time.\n\nEvery behavior should implement these two methods:\n\n- `onUpdate()`\n\n- `getMapEvent()`",
+    "name": "Behavior",
+    "longname": "Behavior",
+    "kind": "class",
+    "scope": "global",
+    "description": "Base class constructor",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "An hash with behavior-specific properties.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": 0,
+        "description": "The object's gravity.",
+        "name": "options.gravity"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": 0,
+        "description": "The object's horizontal velocity.",
+        "name": "options.vx"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": 0,
+        "description": "The object's vertical velocity.",
+        "name": "options.vy"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "An optional callback to call when changing vx direction.",
+        "name": "options.onVXChange"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "An optional callback to call when changing vy direction.",
+        "name": "options.onVYChange"
+      }
+    ],
+    "$longname": "Behavior",
+    "$members": [
+      {
+        "comment": "/**\n     * Returns current mapEvent\n     * \n     * @returns {MapEvent} the object's current map event\n     */",
+        "meta": {
+          "range": [
+            1676,
+            1745
+          ],
+          "filename": "Behavior.js",
+          "lineno": 51,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000109",
+            "name": "Behavior#getMapEvent",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Returns current mapEvent",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "MapEvent"
+              ]
+            },
+            "description": "the object's current map event"
+          }
+        ],
+        "name": "getMapEvent",
+        "longname": "Behavior#getMapEvent",
+        "kind": "function",
+        "memberof": "Behavior",
+        "scope": "instance",
+        "params": [],
+        "$longname": "Behavior#getMapEvent"
+      },
+      {
+        "comment": "/**\n     * Called at each update tick\n     * \n     * @param {Number} t The current timestamp\n     */",
+        "meta": {
+          "range": [
+            1509,
+            1556
+          ],
+          "filename": "Behavior.js",
+          "lineno": 42,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000105",
+            "name": "Behavior#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Called at each update tick",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The current timestamp",
+            "name": "t"
+          }
+        ],
+        "name": "onUpdate",
+        "longname": "Behavior#onUpdate",
+        "kind": "function",
+        "memberof": "Behavior",
+        "scope": "instance",
+        "$longname": "Behavior#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Base class constructor\n     * \n     * @param {Drawable} sprite The sprite to attach the behavior to.\n     * @param {Object} options An hash with behavior-specific properties.\n     * @param {Number} [options.gravity=0] The object's gravity.\n     * @param {Number} [options.vx=0] The object's horizontal velocity.\n     * @param {Number} [options.vy=0] The object's vertical velocity.\n     * @param {Function} [options.onVXChange=undefined] An optional callback to call when changing vx direction.\n     * @param {Function} [options.onVYChange=undefined] An optional callback to call when changing vy direction.\n     */",
+      "meta": {
+        "range": [
+          884,
+          1398
+        ],
+        "filename": "Behavior.js",
+        "lineno": 25,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100000005",
+          "name": "Behavior",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Base class constructor",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Drawable"
+            ]
+          },
+          "description": "The sprite to attach the behavior to.",
+          "name": "sprite"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "An hash with behavior-specific properties.",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": 0,
+          "description": "The object's gravity.",
+          "name": "options.gravity"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": 0,
+          "description": "The object's horizontal velocity.",
+          "name": "options.vx"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": 0,
+          "description": "The object's vertical velocity.",
+          "name": "options.vy"
+        },
+        {
+          "type": {
+            "names": [
+              "function"
+            ]
+          },
+          "optional": true,
+          "description": "An optional callback to call when changing vx direction.",
+          "name": "options.onVXChange"
+        },
+        {
+          "type": {
+            "names": [
+              "function"
+            ]
+          },
+          "optional": true,
+          "description": "An optional callback to call when changing vy direction.",
+          "name": "options.onVYChange"
+        }
+      ],
+      "name": "Behavior",
+      "longname": "Behavior",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Behavior"
+    }
+  },
+  {
+    "comment": "/**\n * This class keeps track of all behaviors available for the game.\n */",
+    "meta": {
+      "range": [
+        309,
+        1003
+      ],
+      "filename": "Behaviors.js",
+      "lineno": 13,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100000153",
+        "name": "Behaviors",
+        "type": "ClassDeclaration",
+        "paramnames": []
+      }
+    },
+    "classdesc": "This class keeps track of all behaviors available for the game.",
+    "name": "Behaviors",
+    "longname": "Behaviors",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates the Behaviors class",
+    "params": [],
+    "$longname": "Behaviors",
+    "$members": [
+      {
+        "comment": "/**\n     * Adds a new behavior which will be available for the game\n     * \n     * @param {String} behaviorName The name of the behavior.\n     * @param {Function} BehaviorClass The Behavior Class to add.\n     */",
+        "meta": {
+          "range": [
+            621,
+            718
+          ],
+          "filename": "Behaviors.js",
+          "lineno": 25,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000160",
+            "name": "Behaviors#addBehavior",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "behaviorName",
+              "BehaviorClass"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Adds a new behavior which will be available for the game",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the behavior.",
+            "name": "behaviorName"
+          },
+          {
+            "type": {
+              "names": [
+                "function"
+              ]
+            },
+            "description": "The Behavior Class to add.",
+            "name": "BehaviorClass"
+          }
+        ],
+        "name": "addBehavior",
+        "longname": "Behaviors#addBehavior",
+        "kind": "function",
+        "memberof": "Behaviors",
+        "scope": "instance",
+        "$longname": "Behaviors#addBehavior"
+      },
+      {
+        "comment": "/**\n     * Retrieves a behavior using its name\n     * \n     * @param {String} behaviorName The name of the behavior to get.\n     * \n     * @returns {Behavior} The Behavior Class or undefined.\n     */",
+        "meta": {
+          "range": [
+            928,
+            1001
+          ],
+          "filename": "Behaviors.js",
+          "lineno": 36,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000172",
+            "name": "Behaviors#getBehavior",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "behaviorName"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Retrieves a behavior using its name",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "String"
+              ]
+            },
+            "description": "The name of the behavior to get.",
+            "name": "behaviorName"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Behavior"
+              ]
+            },
+            "description": "The Behavior Class or undefined."
+          }
+        ],
+        "name": "getBehavior",
+        "longname": "Behaviors#getBehavior",
+        "kind": "function",
+        "memberof": "Behaviors",
+        "scope": "instance",
+        "$longname": "Behaviors#getBehavior"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates the Behaviors class\n     */",
+      "meta": {
+        "range": [
+          382,
+          399
+        ],
+        "filename": "Behaviors.js",
+        "lineno": 17,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100000156",
+          "name": "Behaviors",
+          "type": "MethodDefinition",
+          "paramnames": []
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates the Behaviors class",
+      "name": "Behaviors",
+      "longname": "Behaviors",
+      "kind": "class",
+      "scope": "global",
+      "params": [],
+      "undocumented": true,
+      "$longname": "Behaviors"
+    }
+  },
+  {
+    "comment": "/**\n * GroundMove is a simple behavior that causes an object to move along the horizontal\n * axis until a wall or an hole is reached.\n *\n *\n * @see {@link #Behavior|Behavior}\n * @extends Behavior\n */",
+    "meta": {
+      "range": [
+        324,
+        2230
+      ],
+      "filename": "GroundMove.js",
+      "lineno": 14,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100000240",
+        "name": "GroundMove",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "GroundMove is a simple behavior that causes an object to move along the horizontal\naxis until a wall or an hole is reached.",
+    "see": [
+      "{@link #Behavior|Behavior}"
+    ],
+    "augments": [
+      "Behavior"
+    ],
+    "name": "GroundMove",
+    "longname": "GroundMove",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new GroundMove behavior",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Sprite"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "General behavior & GroundMove specific options",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"right\"",
+        "description": "The initial direction of the move, default = `right`.",
+        "name": "options.direction"
+      }
+    ],
+    "$longname": "GroundMove",
+    "$members": [
+      {
+        "comment": "/**\n     * Returns current mapEvent\n     * \n     * @returns {MapEvent} the object's current map event\n     */",
+        "meta": {
+          "range": [
+            1676,
+            1745
+          ],
+          "filename": "Behavior.js",
+          "lineno": 51,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000109",
+            "name": "Behavior#getMapEvent",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Returns current mapEvent",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "MapEvent"
+              ]
+            },
+            "description": "the object's current map event"
+          }
+        ],
+        "name": "getMapEvent",
+        "longname": "GroundMove#getMapEvent",
+        "kind": "function",
+        "memberof": "GroundMove",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Behavior#getMapEvent",
+        "inherited": true,
+        "$longname": "GroundMove#getMapEvent"
+      },
+      {
+        "comment": "/**\n     * Simple onMove handler that checks for a wall or hole\n     *\n     */",
+        "meta": {
+          "range": [
+            1093,
+            2228
+          ],
+          "filename": "GroundMove.js",
+          "lineno": 40,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000309",
+            "name": "GroundMove#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Simple onMove handler that checks for a wall or hole",
+        "name": "onUpdate",
+        "longname": "GroundMove#onUpdate",
+        "kind": "function",
+        "memberof": "GroundMove",
+        "scope": "instance",
+        "params": [],
+        "overrides": "Behavior#onUpdate",
+        "$longname": "GroundMove#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new GroundMove behavior\n     *\n     * @param {Sprite} sprite The sprite to attach the behavior to.\n     * @param {Object} options General behavior & GroundMove specific options\n     * @param {String} [options.direction=\"right\"] The initial direction of the move, default = `right`.\n     */",
+      "meta": {
+        "range": [
+          679,
+          1004
+        ],
+        "filename": "GroundMove.js",
+        "lineno": 22,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100000244",
+          "name": "GroundMove",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new GroundMove behavior",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Sprite"
+            ]
+          },
+          "description": "The sprite to attach the behavior to.",
+          "name": "sprite"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "General behavior & GroundMove specific options",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "String"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "\"right\"",
+          "description": "The initial direction of the move, default = `right`.",
+          "name": "options.direction"
+        }
+      ],
+      "name": "GroundMove",
+      "longname": "GroundMove",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "GroundMove"
+    }
+  },
+  {
+    "comment": "/**\n * InOut behavior class: a very simple behavior used for the Gods game\n * \n * This behavior makes the object move verticaly from a minY to a maxY\n */",
+    "meta": {
+      "range": [
+        229,
+        1449
+      ],
+      "filename": "InOut.js",
+      "lineno": 9,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100000549",
+        "name": "InOut",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "InOut behavior class: a very simple behavior used for the Gods game\n\nThis behavior makes the object move verticaly from a minY to a maxY",
+    "name": "InOut",
+    "longname": "InOut",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new InOut behavior",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The drawable to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The InOut's options.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "description": "Object's minimum Y position",
+        "name": "options.minY"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "description": "Object's maximum Y position",
+        "name": "options.maxY"
+      }
+    ],
+    "$longname": "InOut",
+    "$members": [
+      {
+        "comment": "/**\n     * Called when the game wants to update the Drawable's position\n     * \n     */",
+        "meta": {
+          "range": [
+            891,
+            1447
+          ],
+          "filename": "InOut.js",
+          "lineno": 33,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000600",
+            "name": "InOut#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Called when the game wants to update the Drawable's position",
+        "name": "onUpdate",
+        "longname": "InOut#onUpdate",
+        "kind": "function",
+        "memberof": "InOut",
+        "scope": "instance",
+        "params": [],
+        "$longname": "InOut#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new InOut behavior\n     * \n     * @param {Drawable} sprite The drawable to attach the behavior to.\n     * @param {Object} options The InOut's options.\n     * @param {Number} [options.minY] Object's minimum Y position\n     * @param {Number} [options.maxY] Object's maximum Y position\n     */",
+      "meta": {
+        "range": [
+          580,
+          793
+        ],
+        "filename": "InOut.js",
+        "lineno": 18,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100000553",
+          "name": "InOut",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new InOut behavior",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Drawable"
+            ]
+          },
+          "description": "The drawable to attach the behavior to.",
+          "name": "sprite"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "The InOut's options.",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "description": "Object's minimum Y position",
+          "name": "options.minY"
+        },
+        {
+          "type": {
+            "names": [
+              "Number"
+            ]
+          },
+          "optional": true,
+          "description": "Object's maximum Y position",
+          "name": "options.maxY"
+        }
+      ],
+      "name": "InOut",
+      "longname": "InOut",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "InOut"
+    }
+  },
+  {
+    "comment": "/**\n * A Path is a special behavior that uses a pre-defined (recorded) path to move\n * an object.\n *\n * @see {@link #Behavior|Behavior}\n * @extends Behavior\n */",
+    "meta": {
+      "range": [
+        300,
+        2750
+      ],
+      "filename": "Path.js",
+      "lineno": 14,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100000738",
+        "name": "Path",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "A Path is a special behavior that uses a pre-defined (recorded) path to move\nan object.",
+    "see": [
+      "{@link #Behavior|Behavior}"
+    ],
+    "augments": [
+      "Behavior"
+    ],
+    "name": "Path",
+    "longname": "Path",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new Path behavior",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The options of the behavior.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Array"
+          ]
+        },
+        "description": "The nodes of the path: a simple array with nodes[0] = vx, nodes[1] = vy, nodes[2] = vx, nodes[3] = vy,...",
+        "name": "options.nodes"
+      },
+      {
+        "type": {
+          "names": [
+            "Boolean"
+          ]
+        },
+        "description": "Set to true so that when the end of the path is reached, movement goes backwards.",
+        "name": "options.reverse"
+      }
+    ],
+    "$longname": "Path",
+    "$members": [
+      {
+        "comment": "/**\n     * Returns current mapEvent\n     * \n     * @returns {MapEvent} the object's current map event\n     */",
+        "meta": {
+          "range": [
+            1676,
+            1745
+          ],
+          "filename": "Behavior.js",
+          "lineno": 51,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000109",
+            "name": "Behavior#getMapEvent",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Returns current mapEvent",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "MapEvent"
+              ]
+            },
+            "description": "the object's current map event"
+          }
+        ],
+        "name": "getMapEvent",
+        "longname": "Path#getMapEvent",
+        "kind": "function",
+        "memberof": "Path",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Behavior#getMapEvent",
+        "inherited": true,
+        "$longname": "Path#getMapEvent"
+      },
+      {
+        "comment": "/**\n     * Move handler: gets the next vx/vy from `this.nodes`\n     * and makes sure to call onVXChange/onVYChange at each sign change\n     * \n     */",
+        "meta": {
+          "range": [
+            1320,
+            2748
+          ],
+          "filename": "Path.js",
+          "lineno": 48,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000823",
+            "name": "Path#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Move handler: gets the next vx/vy from `this.nodes`\nand makes sure to call onVXChange/onVYChange at each sign change",
+        "name": "onUpdate",
+        "longname": "Path#onUpdate",
+        "kind": "function",
+        "memberof": "Path",
+        "scope": "instance",
+        "params": [],
+        "overrides": "Behavior#onUpdate",
+        "$longname": "Path#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new Path behavior\n     * \n     * @param {Drawable} sprite The sprite to attach the behavior to.\n     * @param {Object} options The options of the behavior.\n     * @param {Array} options.nodes The nodes of the path: a simple array with nodes[0] = vx, nodes[1] = vy, nodes[2] = vx, nodes[3] = vy,...\n     * @param {Boolean} options.reverse Set to true so that when the end of the path is reached, movement goes backwards.\n     */",
+      "meta": {
+        "range": [
+          787,
+          1159
+        ],
+        "filename": "Path.js",
+        "lineno": 23,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100000742",
+          "name": "Path",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new Path behavior",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Drawable"
+            ]
+          },
+          "description": "The sprite to attach the behavior to.",
+          "name": "sprite"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "The options of the behavior.",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "Array"
+            ]
+          },
+          "description": "The nodes of the path: a simple array with nodes[0] = vx, nodes[1] = vy, nodes[2] = vx, nodes[3] = vy,...",
+          "name": "options.nodes"
+        },
+        {
+          "type": {
+            "names": [
+              "Boolean"
+            ]
+          },
+          "description": "Set to true so that when the end of the path is reached, movement goes backwards.",
+          "name": "options.reverse"
+        }
+      ],
+      "name": "Path",
+      "longname": "Path",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "Path"
+    }
+  },
+  {
+    "comment": "/**\n * PlayerMove is a behavior that is controlled by the player using keyboard/touch events.\n *\n * To have a sprite controlled by the user you can simply attach this behavior.\n *\n * @see {@link #Behavior|Behavior}\n * @extends Behavior\n */",
+    "meta": {
+      "range": [
+        400,
+        20187
+      ],
+      "filename": "PlayerMove.js",
+      "lineno": 14,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100001071",
+        "name": "PlayerMove",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "PlayerMove is a behavior that is controlled by the player using keyboard/touch events.\n\nTo have a sprite controlled by the user you can simply attach this behavior.",
+    "see": [
+      "{@link #Behavior|Behavior}"
+    ],
+    "augments": [
+      "Behavior"
+    ],
+    "name": "PlayerMove",
+    "longname": "PlayerMove",
+    "kind": "class",
+    "scope": "global",
+    "description": "Creates a new PlayerMove behavior.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "Parameters specifics to the behavior",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"idle\"",
+        "description": "The initial behavior state.",
+        "name": "options.startMovement"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"right\"",
+        "description": "The initial direction.",
+        "name": "options.direction"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"left\"",
+        "description": "The initial look direction, can be different than direction.",
+        "name": "options.lookDirection"
+      }
+    ],
+    "$longname": "PlayerMove",
+    "$members": [
+      {
+        "comment": "/**\n     * Returns current mapEvent\n     * \n     * @returns {MapEvent} the object's current map event\n     */",
+        "meta": {
+          "range": [
+            1676,
+            1745
+          ],
+          "filename": "Behavior.js",
+          "lineno": 51,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100000109",
+            "name": "Behavior#getMapEvent",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Returns current mapEvent",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "MapEvent"
+              ]
+            },
+            "description": "the object's current map event"
+          }
+        ],
+        "name": "getMapEvent",
+        "longname": "PlayerMove#getMapEvent",
+        "kind": "function",
+        "memberof": "PlayerMove",
+        "scope": "instance",
+        "params": [],
+        "inherits": "Behavior#getMapEvent",
+        "inherited": true,
+        "$longname": "PlayerMove#getMapEvent"
+      },
+      {
+        "comment": "/**\n     * onUpdate handler: uses InputManager to get keyboard status and update the sprite's position/state\n     *\n     * @param {Number} t The current timestamp\n     */",
+        "meta": {
+          "range": [
+            1496,
+            5053
+          ],
+          "filename": "PlayerMove.js",
+          "lineno": 49,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100001146",
+            "name": "PlayerMove#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "onUpdate handler: uses InputManager to get keyboard status and update the sprite's position/state",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The current timestamp",
+            "name": "t"
+          }
+        ],
+        "name": "onUpdate",
+        "longname": "PlayerMove#onUpdate",
+        "kind": "function",
+        "memberof": "PlayerMove",
+        "scope": "instance",
+        "overrides": "Behavior#onUpdate",
+        "$longname": "PlayerMove#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "/**\n     * Creates a new PlayerMove behavior.\n     *\n     * @param {Drawable} sprite The sprite to attach the behavior to.\n     * @param {Object} options Parameters specifics to the behavior\n     * @param {String} [options.startMovement=\"idle\"] The initial behavior state.\n     * @param {String} [options.direction=\"right\"] The initial direction.\n     * @param {String} [options.lookDirection=\"left\"] The initial look direction, can be different than direction.\n     */",
+      "meta": {
+        "range": [
+          914,
+          1315
+        ],
+        "filename": "PlayerMove.js",
+        "lineno": 24,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100001075",
+          "name": "PlayerMove",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "description": "Creates a new PlayerMove behavior.",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Drawable"
+            ]
+          },
+          "description": "The sprite to attach the behavior to.",
+          "name": "sprite"
+        },
+        {
+          "type": {
+            "names": [
+              "Object"
+            ]
+          },
+          "description": "Parameters specifics to the behavior",
+          "name": "options"
+        },
+        {
+          "type": {
+            "names": [
+              "String"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "\"idle\"",
+          "description": "The initial behavior state.",
+          "name": "options.startMovement"
+        },
+        {
+          "type": {
+            "names": [
+              "String"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "\"right\"",
+          "description": "The initial direction.",
+          "name": "options.direction"
+        },
+        {
+          "type": {
+            "names": [
+              "String"
+            ]
+          },
+          "optional": true,
+          "defaultvalue": "\"left\"",
+          "description": "The initial look direction, can be different than direction.",
+          "name": "options.lookDirection"
+        }
+      ],
+      "name": "PlayerMove",
+      "longname": "PlayerMove",
+      "kind": "class",
+      "scope": "global",
+      "undocumented": true,
+      "$longname": "PlayerMove"
+    }
+  },
+  {
+    "comment": "/**\n * Simple behavior that makes an object bounce on the ground\n *\n * @param {Drawable} sprite The sprite to attach the behavior to.\n * @param {Object} options The options of the behavior.\n * @param {Number} [options.elasticity=0.80] The elasticity: the closer it is to 1, the higher the bounce.\n * @param {Function} [options.onEnd=undefined] An optional callback to execute when the object stops bouncing.\n * @param {Function} [options.onGround=undefined] An optional callback to execute each time the object touches the ground.\n *\n * @example\n *\n *  sprite.setBehavior('simplefall', {\n *    gravity: 0.3,\n *    onEnd: () => {\n *        this.movable = false;\n *    },\n *    onGround: function() {\n *      AM.play('bounce');\n *    }\n * });\n */",
+    "meta": {
+      "range": [
+        855,
+        2627
+      ],
+      "filename": "SimpleFall.js",
+      "lineno": 26,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100004409",
+        "name": "SimpleFall",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "Simple behavior that makes an object bounce on the ground",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The options of the behavior.",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "Number"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "0.80",
+        "description": "The elasticity: the closer it is to 1, the higher the bounce.",
+        "name": "options.elasticity"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "An optional callback to execute when the object stops bouncing.",
+        "name": "options.onEnd"
+      },
+      {
+        "type": {
+          "names": [
+            "function"
+          ]
+        },
+        "optional": true,
+        "description": "An optional callback to execute each time the object touches the ground.",
+        "name": "options.onGround"
+      }
+    ],
+    "examples": [
+      "sprite.setBehavior('simplefall', {\n   gravity: 0.3,\n   onEnd: () => {\n       this.movable = false;\n   },\n   onGround: function() {\n     AM.play('bounce');\n   }\n});"
+    ],
+    "name": "SimpleFall",
+    "longname": "SimpleFall",
+    "kind": "class",
+    "scope": "global",
+    "$longname": "SimpleFall",
+    "$members": [
+      {
+        "comment": "/**\n     * The move handler that gets executed at each move loop.\n     *\n     * Simply calculates the next vertical position using current velocity.\n     * Each time the object reaches the ground, it bounces a little less, using the elasticity property,\n     * until it reaches the ground and stops bouncing.\n     *\n     */",
+        "meta": {
+          "range": [
+            1585,
+            2430
+          ],
+          "filename": "SimpleFall.js",
+          "lineno": 46,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100004460",
+            "name": "SimpleFall#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "The move handler that gets executed at each move loop.\n\nSimply calculates the next vertical position using current velocity.\nEach time the object reaches the ground, it bounces a little less, using the elasticity property,\nuntil it reaches the ground and stops bouncing.",
+        "name": "onUpdate",
+        "longname": "SimpleFall#onUpdate",
+        "kind": "function",
+        "memberof": "SimpleFall",
+        "scope": "instance",
+        "params": [],
+        "$longname": "SimpleFall#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "",
+      "meta": {
+        "range": [
+          895,
+          1251
+        ],
+        "filename": "SimpleFall.js",
+        "lineno": 27,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100004413",
+          "name": "SimpleFall",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "undocumented": true,
+      "name": "SimpleFall",
+      "longname": "SimpleFall",
+      "kind": "class",
+      "scope": "global",
+      "params": [],
+      "$longname": "SimpleFall"
+    }
+  },
+  {
+    "comment": "/**\n * Simple behavior that moves horizontally until a wall is reached.\n *\n * @param {Drawable} sprite The sprite to attach the behavior to.\n * @param {Object} options The options of the behavior\n * @param {String} [options.direction=\"left\"] The initial direction of the move, default is `right`.\n *\n */",
+    "meta": {
+      "range": [
+        414,
+        1509
+      ],
+      "filename": "WeaponMove.js",
+      "lineno": 13,
+      "columnno": 0,
+      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+      "code": {
+        "id": "astnode100004631",
+        "name": "WeaponMove",
+        "type": "ClassDeclaration",
+        "paramnames": [
+          "sprite",
+          "options"
+        ]
+      }
+    },
+    "classdesc": "Simple behavior that moves horizontally until a wall is reached.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Drawable"
+          ]
+        },
+        "description": "The sprite to attach the behavior to.",
+        "name": "sprite"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The options of the behavior",
+        "name": "options"
+      },
+      {
+        "type": {
+          "names": [
+            "String"
+          ]
+        },
+        "optional": true,
+        "defaultvalue": "\"left\"",
+        "description": "The initial direction of the move, default is `right`.",
+        "name": "options.direction"
+      }
+    ],
+    "name": "WeaponMove",
+    "longname": "WeaponMove",
+    "kind": "class",
+    "scope": "global",
+    "$longname": "WeaponMove",
+    "$members": [
+      {
+        "comment": "/**\n     * The onMove event handler, simply moves updates the object's x using vx and calls VXChange\n     * when it reaches a wall\n     */",
+        "meta": {
+          "range": [
+            908,
+            1507
+          ],
+          "filename": "WeaponMove.js",
+          "lineno": 32,
+          "columnno": 4,
+          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+          "code": {
+            "id": "astnode100004692",
+            "name": "WeaponMove#onUpdate",
+            "type": "MethodDefinition",
+            "paramnames": []
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "The onMove event handler, simply moves updates the object's x using vx and calls VXChange\nwhen it reaches a wall",
+        "name": "onUpdate",
+        "longname": "WeaponMove#onUpdate",
+        "kind": "function",
+        "memberof": "WeaponMove",
+        "scope": "instance",
+        "params": [],
+        "$longname": "WeaponMove#onUpdate"
+      }
+    ],
+    "$constructor": {
+      "comment": "",
+      "meta": {
+        "range": [
+          454,
+          759
+        ],
+        "filename": "WeaponMove.js",
+        "lineno": 14,
+        "columnno": 4,
+        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable\\Behavior",
+        "code": {
+          "id": "astnode100004635",
+          "name": "WeaponMove",
+          "type": "MethodDefinition",
+          "paramnames": [
+            "sprite",
+            "options"
+          ]
+        },
+        "vars": {
+          "": null
+        }
+      },
+      "undocumented": true,
+      "name": "WeaponMove",
+      "longname": "WeaponMove",
+      "kind": "class",
+      "scope": "global",
+      "params": [],
+      "$longname": "WeaponMove"
+    }
+  }
+]
