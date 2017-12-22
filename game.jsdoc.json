@@ -9,7 +9,7 @@
       "filename": "Game.js",
       "lineno": 30,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
       "code": {
         "id": "astnode100000030",
         "name": "Game",
@@ -128,7 +128,7 @@
           "filename": "Game.js",
           "lineno": 227,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100000827",
             "name": "Game#bindEvents",
@@ -170,7 +170,7 @@
           "filename": "Game.js",
           "lineno": 239,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100000845",
             "name": "Game#onEvent",
@@ -212,7 +212,7 @@
           "filename": "Game.js",
           "lineno": 335,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100001029",
             "name": "Game#setScene",
@@ -254,7 +254,7 @@
           "filename": "Game.js",
           "lineno": 258,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100000869",
             "name": "Game#toggleFullscreen",
@@ -284,7 +284,7 @@
           "filename": "Game.js",
           "lineno": 477,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100001367",
             "name": "Game#togglePause",
@@ -314,7 +314,7 @@
           "filename": "Game.js",
           "lineno": 250,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100000852",
             "name": "Game#toggleSound",
@@ -356,7 +356,7 @@
           "filename": "Game.js",
           "lineno": 207,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
           "code": {
             "id": "astnode100000759",
             "name": "Game#toggleTileInspector",
@@ -399,7 +399,7 @@
         "filename": "Game.js",
         "lineno": 44,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Game",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Game",
         "code": {
           "id": "astnode100000033",
           "name": "Game",

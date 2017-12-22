@@ -9,7 +9,7 @@
       "filename": "BitmapText.js",
       "lineno": 9,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100000010",
         "name": "BitmapText",
@@ -146,7 +146,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -198,7 +198,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -242,7 +242,7 @@
           "filename": "Drawable.js",
           "lineno": 785,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003490",
             "name": "Drawable#animate",
@@ -317,7 +317,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -363,7 +363,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -405,7 +405,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -437,7 +437,7 @@
           "filename": "BitmapText.js",
           "lineno": 99,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000187",
             "name": "BitmapText#clearBuffer",
@@ -467,7 +467,7 @@
           "filename": "BitmapText.js",
           "lineno": 87,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000160",
             "name": "BitmapText#createBuffer",
@@ -509,7 +509,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -549,7 +549,7 @@
           "filename": "BitmapText.js",
           "lineno": 343,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000883",
             "name": "BitmapText#drawLine",
@@ -620,7 +620,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -652,7 +652,7 @@
           "filename": "BitmapText.js",
           "lineno": 314,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000844",
             "name": "BitmapText#getCharOffset",
@@ -704,7 +704,7 @@
           "filename": "Drawable.js",
           "lineno": 590,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002825",
             "name": "Drawable#getCurrentHeight",
@@ -754,7 +754,7 @@
           "filename": "Drawable.js",
           "lineno": 578,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002817",
             "name": "Drawable#getCurrentWidth",
@@ -804,7 +804,7 @@
           "filename": "Drawable.js",
           "lineno": 601,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002833",
             "name": "Drawable#getHitBox",
@@ -846,7 +846,7 @@
           "filename": "BitmapText.js",
           "lineno": 160,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000358",
             "name": "BitmapText#getLines",
@@ -876,7 +876,7 @@
           "filename": "BitmapText.js",
           "lineno": 146,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000330",
             "name": "BitmapText#getNextLineLength",
@@ -938,7 +938,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -980,7 +980,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -1022,7 +1022,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -1064,7 +1064,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -1118,7 +1118,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -1194,7 +1194,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -1256,7 +1256,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -1288,7 +1288,7 @@
           "filename": "Drawable.js",
           "lineno": 740,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003419",
             "name": "Drawable#onHit",
@@ -1332,7 +1332,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -1407,7 +1407,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -1439,7 +1439,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -1491,7 +1491,7 @@
           "filename": "BitmapText.js",
           "lineno": 368,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001004",
             "name": "BitmapText#renderText",
@@ -1521,7 +1521,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -1553,7 +1553,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -1597,7 +1597,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -1629,7 +1629,7 @@
           "filename": "BitmapText.js",
           "lineno": 208,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000535",
             "name": "BitmapText#scrollFromBottom",
@@ -1682,7 +1682,7 @@
           "filename": "BitmapText.js",
           "lineno": 226,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000569",
             "name": "BitmapText#scrollFromTop",
@@ -1735,7 +1735,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -1787,7 +1787,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -1852,7 +1852,7 @@
           "filename": "BitmapText.js",
           "lineno": 108,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000203",
             "name": "BitmapText#setFontParams",
@@ -1893,7 +1893,7 @@
           "filename": "BitmapText.js",
           "lineno": 407,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001092",
             "name": "BitmapText#setImage",
@@ -1936,7 +1936,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -1988,7 +1988,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -2044,7 +2044,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -2088,7 +2088,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -2140,7 +2140,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -2184,7 +2184,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -2236,7 +2236,7 @@
           "filename": "BitmapText.js",
           "lineno": 421,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001121",
             "name": "BitmapText#setScene",
@@ -2279,7 +2279,7 @@
           "filename": "BitmapText.js",
           "lineno": 387,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001049",
             "name": "BitmapText#setText",
@@ -2321,7 +2321,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -2363,7 +2363,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -2407,7 +2407,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -2451,7 +2451,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -2505,7 +2505,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -2549,7 +2549,7 @@
           "filename": "BitmapText.js",
           "lineno": 284,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100000723",
             "name": "BitmapText#update",
@@ -2581,7 +2581,7 @@
         "filename": "BitmapText.js",
         "lineno": 36,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100000014",
           "name": "BitmapText",
@@ -2730,7 +2730,7 @@
       "filename": "Paint.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100004588",
         "name": "Canvas",
@@ -2831,7 +2831,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -2883,7 +2883,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -2927,7 +2927,7 @@
           "filename": "Paint.js",
           "lineno": 144,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004945",
             "name": "Canvas#animate",
@@ -2979,7 +2979,7 @@
           "filename": "Paint.js",
           "lineno": 126,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004883",
             "name": "Canvas#arc",
@@ -3081,7 +3081,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -3127,7 +3127,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -3169,7 +3169,7 @@
           "filename": "Paint.js",
           "lineno": 100,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004792",
             "name": "Canvas#circle",
@@ -3261,7 +3261,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -3293,7 +3293,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -3333,7 +3333,7 @@
           "filename": "Paint.js",
           "lineno": 39,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004653",
             "name": "Canvas#draw",
@@ -3375,7 +3375,7 @@
           "filename": "Paint.js",
           "lineno": 69,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004714",
             "name": "Canvas#fill",
@@ -3419,7 +3419,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -3451,7 +3451,7 @@
           "filename": "Drawable.js",
           "lineno": 590,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002825",
             "name": "Drawable#getCurrentHeight",
@@ -3501,7 +3501,7 @@
           "filename": "Drawable.js",
           "lineno": 578,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002817",
             "name": "Drawable#getCurrentWidth",
@@ -3551,7 +3551,7 @@
           "filename": "Drawable.js",
           "lineno": 601,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002833",
             "name": "Drawable#getHitBox",
@@ -3593,7 +3593,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -3635,7 +3635,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -3677,7 +3677,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -3719,7 +3719,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -3773,7 +3773,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -3849,7 +3849,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -3911,7 +3911,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -3943,7 +3943,7 @@
           "filename": "Drawable.js",
           "lineno": 740,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003419",
             "name": "Drawable#onHit",
@@ -3987,7 +3987,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -4062,7 +4062,7 @@
           "filename": "Paint.js",
           "lineno": 83,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004750",
             "name": "Canvas#rect",
@@ -4146,7 +4146,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -4178,7 +4178,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -4230,7 +4230,7 @@
           "filename": "Paint.js",
           "lineno": 60,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004710",
             "name": "Canvas#render",
@@ -4260,7 +4260,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -4292,7 +4292,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -4336,7 +4336,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -4368,7 +4368,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -4420,7 +4420,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -4485,7 +4485,7 @@
           "filename": "Drawable.js",
           "lineno": 916,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003795",
             "name": "Drawable#setImage",
@@ -4529,7 +4529,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -4581,7 +4581,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -4637,7 +4637,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -4681,7 +4681,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -4733,7 +4733,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -4777,7 +4777,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -4829,7 +4829,7 @@
           "filename": "Drawable.js",
           "lineno": 191,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001943",
             "name": "Drawable#setScene",
@@ -4881,7 +4881,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -4923,7 +4923,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -4967,7 +4967,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -5011,7 +5011,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -5065,7 +5065,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -5110,7 +5110,7 @@
         "filename": "Paint.js",
         "lineno": 23,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100004592",
           "name": "Canvas",
@@ -5212,7 +5212,7 @@
       "filename": "Drawable.js",
       "lineno": 17,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100001390",
         "name": "Drawable",
@@ -5303,7 +5303,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -5353,7 +5353,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -5395,7 +5395,7 @@
           "filename": "Drawable.js",
           "lineno": 785,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003490",
             "name": "Drawable#animate",
@@ -5468,7 +5468,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -5512,7 +5512,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -5552,7 +5552,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -5582,7 +5582,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -5620,7 +5620,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -5650,7 +5650,7 @@
           "filename": "Drawable.js",
           "lineno": 590,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002825",
             "name": "Drawable#getCurrentHeight",
@@ -5698,7 +5698,7 @@
           "filename": "Drawable.js",
           "lineno": 578,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002817",
             "name": "Drawable#getCurrentWidth",
@@ -5746,7 +5746,7 @@
           "filename": "Drawable.js",
           "lineno": 601,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002833",
             "name": "Drawable#getHitBox",
@@ -5786,7 +5786,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -5826,7 +5826,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -5866,7 +5866,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -5906,7 +5906,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -5958,7 +5958,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -6032,7 +6032,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -6092,7 +6092,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -6122,7 +6122,7 @@
           "filename": "Drawable.js",
           "lineno": 740,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003419",
             "name": "Drawable#onHit",
@@ -6164,7 +6164,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -6237,7 +6237,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -6267,7 +6267,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -6317,7 +6317,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -6347,7 +6347,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -6389,7 +6389,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -6419,7 +6419,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -6469,7 +6469,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -6532,7 +6532,7 @@
           "filename": "Drawable.js",
           "lineno": 916,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003795",
             "name": "Drawable#setImage",
@@ -6574,7 +6574,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -6624,7 +6624,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -6678,7 +6678,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -6720,7 +6720,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -6770,7 +6770,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -6812,7 +6812,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -6862,7 +6862,7 @@
           "filename": "Drawable.js",
           "lineno": 191,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001943",
             "name": "Drawable#setScene",
@@ -6912,7 +6912,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -6952,7 +6952,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -6994,7 +6994,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -7036,7 +7036,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -7088,7 +7088,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -7131,7 +7131,7 @@
         "filename": "Drawable.js",
         "lineno": 28,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100001393",
           "name": "Drawable",
@@ -7226,7 +7226,7 @@
       "filename": "Menu.js",
       "lineno": 12,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100004172",
         "name": "Menu",
@@ -7321,7 +7321,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -7373,7 +7373,7 @@
           "filename": "Menu.js",
           "lineno": 80,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004289",
             "name": "Menu#addMenuItem",
@@ -7415,7 +7415,7 @@
           "filename": "Menu.js",
           "lineno": 98,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004365",
             "name": "Menu#addMenuItems",
@@ -7460,7 +7460,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -7504,7 +7504,7 @@
           "filename": "Drawable.js",
           "lineno": 785,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003490",
             "name": "Drawable#animate",
@@ -7579,7 +7579,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -7625,7 +7625,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -7667,7 +7667,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -7699,7 +7699,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -7739,7 +7739,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -7771,7 +7771,7 @@
           "filename": "Drawable.js",
           "lineno": 590,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002825",
             "name": "Drawable#getCurrentHeight",
@@ -7821,7 +7821,7 @@
           "filename": "Drawable.js",
           "lineno": 578,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002817",
             "name": "Drawable#getCurrentWidth",
@@ -7871,7 +7871,7 @@
           "filename": "Drawable.js",
           "lineno": 601,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002833",
             "name": "Drawable#getHitBox",
@@ -7913,7 +7913,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -7955,7 +7955,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -7997,7 +7997,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -8039,7 +8039,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -8093,7 +8093,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -8169,7 +8169,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -8231,7 +8231,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -8263,7 +8263,7 @@
           "filename": "Drawable.js",
           "lineno": 740,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003419",
             "name": "Drawable#onHit",
@@ -8307,7 +8307,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -8382,7 +8382,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -8414,7 +8414,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -8466,7 +8466,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -8498,7 +8498,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -8542,7 +8542,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -8574,7 +8574,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -8626,7 +8626,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -8691,7 +8691,7 @@
           "filename": "Drawable.js",
           "lineno": 916,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003795",
             "name": "Drawable#setImage",
@@ -8735,7 +8735,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -8787,7 +8787,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -8843,7 +8843,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -8887,7 +8887,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -8939,7 +8939,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -8983,7 +8983,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -9035,7 +9035,7 @@
           "filename": "Drawable.js",
           "lineno": 191,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001943",
             "name": "Drawable#setScene",
@@ -9087,7 +9087,7 @@
           "filename": "Menu.js",
           "lineno": 153,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100004474",
             "name": "Menu#setText",
@@ -9139,7 +9139,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -9181,7 +9181,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -9225,7 +9225,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -9269,7 +9269,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -9323,7 +9323,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -9368,7 +9368,7 @@
         "filename": "Menu.js",
         "lineno": 42,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100004176",
           "name": "Menu",
@@ -9467,7 +9467,7 @@
       "filename": "SimpleText.js",
       "lineno": 9,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100004990",
         "name": "SimpleText",
@@ -9617,7 +9617,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -9669,7 +9669,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -9713,7 +9713,7 @@
           "filename": "Drawable.js",
           "lineno": 785,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003490",
             "name": "Drawable#animate",
@@ -9788,7 +9788,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -9834,7 +9834,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -9876,7 +9876,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -9908,7 +9908,7 @@
           "filename": "SimpleText.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005142",
             "name": "SimpleText#clearBuffer",
@@ -9938,7 +9938,7 @@
           "filename": "SimpleText.js",
           "lineno": 59,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005111",
             "name": "SimpleText#createBuffer",
@@ -9980,7 +9980,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -10020,7 +10020,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -10052,7 +10052,7 @@
           "filename": "SimpleText.js",
           "lineno": 211,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005455",
             "name": "SimpleText#getCurrentHeight",
@@ -10093,7 +10093,7 @@
           "filename": "SimpleText.js",
           "lineno": 220,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005463",
             "name": "SimpleText#getCurrentOffsetX",
@@ -10133,7 +10133,7 @@
           "filename": "SimpleText.js",
           "lineno": 229,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005471",
             "name": "SimpleText#getCurrentOffsetY",
@@ -10173,7 +10173,7 @@
           "filename": "SimpleText.js",
           "lineno": 202,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005447",
             "name": "SimpleText#getCurrentWidth",
@@ -10214,7 +10214,7 @@
           "filename": "SimpleText.js",
           "lineno": 188,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005429",
             "name": "SimpleText#getHitBox",
@@ -10255,7 +10255,7 @@
           "filename": "SimpleText.js",
           "lineno": 124,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005238",
             "name": "SimpleText#getMetrics",
@@ -10285,7 +10285,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -10327,7 +10327,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -10369,7 +10369,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -10411,7 +10411,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -10465,7 +10465,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -10541,7 +10541,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -10603,7 +10603,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -10635,7 +10635,7 @@
           "filename": "SimpleText.js",
           "lineno": 238,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005479",
             "name": "SimpleText#onHit",
@@ -10678,7 +10678,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -10753,7 +10753,7 @@
           "filename": "SimpleText.js",
           "lineno": 103,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005190",
             "name": "SimpleText#prepareRender",
@@ -10783,7 +10783,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -10815,7 +10815,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -10867,7 +10867,7 @@
           "filename": "SimpleText.js",
           "lineno": 144,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005336",
             "name": "SimpleText#renderText",
@@ -10897,7 +10897,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -10929,7 +10929,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -10973,7 +10973,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -11005,7 +11005,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -11057,7 +11057,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -11122,7 +11122,7 @@
           "filename": "SimpleText.js",
           "lineno": 178,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005413",
             "name": "SimpleText#setColor",
@@ -11164,7 +11164,7 @@
           "filename": "Drawable.js",
           "lineno": 916,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003795",
             "name": "Drawable#setImage",
@@ -11208,7 +11208,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -11260,7 +11260,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -11316,7 +11316,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -11360,7 +11360,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -11412,7 +11412,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -11456,7 +11456,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -11508,7 +11508,7 @@
           "filename": "SimpleText.js",
           "lineno": 167,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005394",
             "name": "SimpleText#setScene",
@@ -11550,7 +11550,7 @@
           "filename": "SimpleText.js",
           "lineno": 90,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005162",
             "name": "SimpleText#setSize",
@@ -11602,7 +11602,7 @@
           "filename": "SimpleText.js",
           "lineno": 156,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005378",
             "name": "SimpleText#setText",
@@ -11644,7 +11644,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -11686,7 +11686,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -11730,7 +11730,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -11774,7 +11774,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -11828,7 +11828,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -11873,7 +11873,7 @@
         "filename": "SimpleText.js",
         "lineno": 33,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100004994",
           "name": "SimpleText",
@@ -12027,7 +12027,7 @@
       "filename": "Sprite.js",
       "lineno": 20,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100005723",
         "name": "Sprite",
@@ -12105,7 +12105,7 @@
           "filename": "Sprite.js",
           "lineno": 152,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005884",
             "name": "Sprite#addAnimation",
@@ -12258,7 +12258,7 @@
           "filename": "Drawable.js",
           "lineno": 875,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003691",
             "name": "Drawable#addChild",
@@ -12310,7 +12310,7 @@
           "filename": "Drawable.js",
           "lineno": 729,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003406",
             "name": "Drawable#addMoveHandler",
@@ -12354,7 +12354,7 @@
           "filename": "Sprite.js",
           "lineno": 389,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006622",
             "name": "Sprite#advanceFrame",
@@ -12396,7 +12396,7 @@
           "filename": "Drawable.js",
           "lineno": 785,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003490",
             "name": "Drawable#animate",
@@ -12471,7 +12471,7 @@
           "filename": "Drawable.js",
           "lineno": 305,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002243",
             "name": "Drawable#cancelMoveTo",
@@ -12517,7 +12517,7 @@
           "filename": "Drawable.js",
           "lineno": 320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002280",
             "name": "Drawable#center",
@@ -12559,7 +12559,7 @@
           "filename": "Sprite.js",
           "lineno": 501,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006822",
             "name": "Sprite#centerXOverTile",
@@ -12601,7 +12601,7 @@
           "filename": "Drawable.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002359",
             "name": "Drawable#clearBehavior",
@@ -12633,7 +12633,7 @@
           "filename": "Sprite.js",
           "lineno": 517,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006869",
             "name": "Sprite#clearMove",
@@ -12663,7 +12663,7 @@
           "filename": "Drawable.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003963",
             "name": "Drawable#destroy",
@@ -12703,7 +12703,7 @@
           "filename": "Drawable.js",
           "lineno": 508,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002734",
             "name": "Drawable#getAngle",
@@ -12735,7 +12735,7 @@
           "filename": "Sprite.js",
           "lineno": 415,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006692",
             "name": "Sprite#getCurrentHeight",
@@ -12775,7 +12775,7 @@
           "filename": "Sprite.js",
           "lineno": 425,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006702",
             "name": "Sprite#getCurrentOffsetX",
@@ -12815,7 +12815,7 @@
           "filename": "Sprite.js",
           "lineno": 434,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006712",
             "name": "Sprite#getCurrentOffsetY",
@@ -12855,7 +12855,7 @@
           "filename": "Sprite.js",
           "lineno": 407,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006682",
             "name": "Sprite#getCurrentWidth",
@@ -12895,7 +12895,7 @@
           "filename": "Sprite.js",
           "lineno": 471,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006746",
             "name": "Sprite#getHitBox",
@@ -12939,7 +12939,7 @@
           "filename": "Sprite.js",
           "lineno": 485,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006776",
             "name": "Sprite#getHitBox2",
@@ -12979,7 +12979,7 @@
           "filename": "Drawable.js",
           "lineno": 296,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002235",
             "name": "Drawable#getOpacity",
@@ -13021,7 +13021,7 @@
           "filename": "Drawable.js",
           "lineno": 455,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002683",
             "name": "Drawable#getSavedPosition",
@@ -13063,7 +13063,7 @@
           "filename": "Drawable.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002759",
             "name": "Drawable#hide",
@@ -13105,7 +13105,7 @@
           "filename": "Drawable.js",
           "lineno": 676,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003151",
             "name": "Drawable#hitTest",
@@ -13159,7 +13159,7 @@
           "filename": "Sprite.js",
           "lineno": 88,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100005769",
             "name": "Sprite#initProperties",
@@ -13189,7 +13189,7 @@
           "filename": "Sprite.js",
           "lineno": 213,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006044",
             "name": "Sprite#load",
@@ -13232,7 +13232,7 @@
           "filename": "Drawable.js",
           "lineno": 217,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001981",
             "name": "Drawable#moveTo",
@@ -13308,7 +13308,7 @@
           "filename": "Sprite.js",
           "lineno": 321,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006409",
             "name": "Sprite#nextFrame",
@@ -13338,7 +13338,7 @@
           "filename": "Drawable.js",
           "lineno": 971,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003941",
             "name": "Drawable#notify",
@@ -13400,7 +13400,7 @@
           "filename": "Sprite.js",
           "lineno": 613,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100007108",
             "name": "Sprite#onAnimationChange",
@@ -13442,7 +13442,7 @@
           "filename": "Sprite.js",
           "lineno": 603,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100007089",
             "name": "Sprite#onAnimationEnd",
@@ -13484,7 +13484,7 @@
           "filename": "Drawable.js",
           "lineno": 862,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003687",
             "name": "Drawable#onCollision",
@@ -13516,7 +13516,7 @@
           "filename": "Sprite.js",
           "lineno": 644,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100007159",
             "name": "Sprite#onHit",
@@ -13559,7 +13559,7 @@
           "filename": "Drawable.js",
           "lineno": 941,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003823",
             "name": "Drawable#playSound",
@@ -13634,7 +13634,7 @@
           "filename": "Drawable.js",
           "lineno": 901,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003759",
             "name": "Drawable#removeAllChildren",
@@ -13666,7 +13666,7 @@
           "filename": "Drawable.js",
           "lineno": 889,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003720",
             "name": "Drawable#removeChild",
@@ -13718,7 +13718,7 @@
           "filename": "Drawable.js",
           "lineno": 119,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001682",
             "name": "Drawable#reset",
@@ -13750,7 +13750,7 @@
           "filename": "Drawable.js",
           "lineno": 566,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002804",
             "name": "Drawable#restoreCtxAlpha",
@@ -13794,7 +13794,7 @@
           "filename": "Sprite.js",
           "lineno": 377,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006606",
             "name": "Sprite#restorePreviousAnim",
@@ -13832,7 +13832,7 @@
           "filename": "Sprite.js",
           "lineno": 304,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006361",
             "name": "Sprite#rewind",
@@ -13862,7 +13862,7 @@
           "filename": "Drawable.js",
           "lineno": 445,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002663",
             "name": "Drawable#savePosition",
@@ -13894,7 +13894,7 @@
           "filename": "Drawable.js",
           "lineno": 500,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002723",
             "name": "Drawable#setAngle",
@@ -13946,7 +13946,7 @@
           "filename": "Sprite.js",
           "lineno": 530,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006879",
             "name": "Sprite#setAnimation",
@@ -14023,7 +14023,7 @@
           "filename": "Drawable.js",
           "lineno": 336,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002322",
             "name": "Drawable#setBehavior",
@@ -14088,7 +14088,7 @@
           "filename": "Sprite.js",
           "lineno": 281,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006304",
             "name": "Sprite#setImage",
@@ -14143,7 +14143,7 @@
           "filename": "Drawable.js",
           "lineno": 176,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001916",
             "name": "Drawable#setMap",
@@ -14195,7 +14195,7 @@
           "filename": "Drawable.js",
           "lineno": 275,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002197",
             "name": "Drawable#setMask",
@@ -14251,7 +14251,7 @@
           "filename": "Drawable.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002224",
             "name": "Drawable#setOpacity",
@@ -14295,7 +14295,7 @@
           "filename": "Drawable.js",
           "lineno": 478,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002701",
             "name": "Drawable#setPath",
@@ -14347,7 +14347,7 @@
           "filename": "Drawable.js",
           "lineno": 204,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001970",
             "name": "Drawable#setPlatform",
@@ -14391,7 +14391,7 @@
           "filename": "Drawable.js",
           "lineno": 489,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002712",
             "name": "Drawable#setScale",
@@ -14443,7 +14443,7 @@
           "filename": "Drawable.js",
           "lineno": 191,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100001943",
             "name": "Drawable#setScene",
@@ -14495,7 +14495,7 @@
           "filename": "Drawable.js",
           "lineno": 541,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002771",
             "name": "Drawable#show",
@@ -14537,7 +14537,7 @@
           "filename": "Drawable.js",
           "lineno": 615,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002857",
             "name": "Drawable#showHitBox",
@@ -14581,7 +14581,7 @@
           "filename": "Drawable.js",
           "lineno": 654,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003054",
             "name": "Drawable#showObjectBox",
@@ -14625,7 +14625,7 @@
           "filename": "Drawable.js",
           "lineno": 248,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100002106",
             "name": "Drawable#snapToMap",
@@ -14679,7 +14679,7 @@
           "filename": "Sprite.js",
           "lineno": 594,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100007079",
             "name": "Sprite#startAnimation",
@@ -14709,7 +14709,7 @@
           "filename": "Drawable.js",
           "lineno": 819,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100003608",
             "name": "Drawable#stopAnimate",
@@ -14753,7 +14753,7 @@
           "filename": "Sprite.js",
           "lineno": 579,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100007053",
             "name": "Sprite#stopAnimation",
@@ -14795,7 +14795,7 @@
           "filename": "Sprite.js",
           "lineno": 367,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006586",
             "name": "Sprite#storeCurrentAnim",
@@ -14825,7 +14825,7 @@
           "filename": "Sprite.js",
           "lineno": 252,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100006137",
             "name": "Sprite#updateFlipAnimation",
@@ -14888,7 +14888,7 @@
         "filename": "Sprite.js",
         "lineno": 73,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100005727",
           "name": "Sprite",
@@ -14965,7 +14965,7 @@
       "filename": "Wave.js",
       "lineno": 11,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
       "code": {
         "id": "astnode100008090",
         "name": "Wave",
@@ -15030,7 +15030,7 @@
           "filename": "Wave.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100008208",
             "name": "Wave#destroy",
@@ -15072,7 +15072,7 @@
           "filename": "Wave.js",
           "lineno": 50,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100008144",
             "name": "Wave#getSpriteOptions",
@@ -15124,7 +15124,7 @@
           "filename": "Wave.js",
           "lineno": 34,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
             "id": "astnode100008122",
             "name": "Wave#remove",
@@ -15167,7 +15167,7 @@
         "filename": "Wave.js",
         "lineno": 20,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Drawable",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
         "code": {
           "id": "astnode100008093",
           "name": "Wave",

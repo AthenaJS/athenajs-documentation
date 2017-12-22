@@ -9,7 +9,7 @@
       "filename": "InputManager.js",
       "lineno": 19,
       "columnno": 6,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
       "code": {
         "id": "astnode100000003",
         "name": "InputManager",
@@ -38,7 +38,7 @@
           "filename": "InputManager.js",
           "lineno": 537,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100001591",
             "name": "getAllKeysStatus",
@@ -69,7 +69,7 @@
           "filename": "InputManager.js",
           "lineno": 83,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000090",
             "name": "init",
@@ -105,7 +105,7 @@
           "filename": "InputManager.js",
           "lineno": 579,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100001715",
             "name": "installKeyCallback",
@@ -162,7 +162,7 @@
           "filename": "InputManager.js",
           "lineno": 23,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000006",
             "name": "KEYS",
@@ -188,7 +188,7 @@
           "filename": "InputManager.js",
           "lineno": 161,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000241",
             "name": "nextRecordedEvents",
@@ -217,7 +217,7 @@
           "filename": "InputManager.js",
           "lineno": 36,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000024",
             "name": "PAD_BUTTONS",
@@ -243,7 +243,7 @@
           "filename": "InputManager.js",
           "lineno": 148,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000214",
             "name": "playRecordedEvents",
@@ -272,7 +272,7 @@
           "filename": "InputManager.js",
           "lineno": 208,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000324",
             "name": "setInputMode",
@@ -312,7 +312,7 @@
           "filename": "InputManager.js",
           "lineno": 131,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000164",
             "name": "startRecordingEvents",
@@ -341,7 +341,7 @@
           "filename": "InputManager.js",
           "lineno": 141,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Input",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Input",
           "code": {
             "id": "astnode100000193",
             "name": "stopRecordingEvents",

@@ -9,7 +9,7 @@
       "filename": "Map.js",
       "lineno": 19,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
       "code": {
         "id": "astnode100000028",
         "name": "Map",
@@ -195,7 +195,7 @@
           "filename": "Map.js",
           "lineno": 349,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000995",
             "name": "Map#addObject",
@@ -257,7 +257,7 @@
           "filename": "Map.js",
           "lineno": 1571,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004643",
             "name": "Map#addTileSet",
@@ -301,7 +301,7 @@
           "filename": "Map.js",
           "lineno": 564,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001593",
             "name": "Map#checkCollisions",
@@ -331,7 +331,7 @@
           "filename": "Map.js",
           "lineno": 982,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002771",
             "name": "Map#checkForTileType",
@@ -429,7 +429,7 @@
           "filename": "Map.js",
           "lineno": 579,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001618",
             "name": "Map#checkForTriggers",
@@ -459,7 +459,7 @@
           "filename": "Map.js",
           "lineno": 673,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001896",
             "name": "Map#checkMasterBulletsToEnemiesCollisions",
@@ -489,7 +489,7 @@
           "filename": "Map.js",
           "lineno": 516,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001394",
             "name": "Map#checkMasterPosition",
@@ -519,7 +519,7 @@
           "filename": "Map.js",
           "lineno": 696,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001976",
             "name": "Map#checkMasterToEnemiesCollisions",
@@ -559,7 +559,7 @@
           "filename": "Map.js",
           "lineno": 784,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002197",
             "name": "Map#checkMatrixForCollision",
@@ -651,7 +651,7 @@
           "filename": "Map.js",
           "lineno": 1588,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004678",
             "name": "Map#clear",
@@ -707,7 +707,7 @@
           "filename": "Map.js",
           "lineno": 427,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001172",
             "name": "Map#debug",
@@ -749,7 +749,7 @@
           "filename": "Map.js",
           "lineno": 659,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001859",
             "name": "Map#fallTest",
@@ -819,7 +819,7 @@
           "filename": "Map.js",
           "lineno": 809,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002277",
             "name": "Map#getMaxDistanceToTile",
@@ -881,7 +881,7 @@
           "filename": "Map.js",
           "lineno": 1288,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100003794",
             "name": "Map#getTileAt",
@@ -952,7 +952,7 @@
           "filename": "Map.js",
           "lineno": 1308,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100003847",
             "name": "Map#getTileBehaviorAtIndex",
@@ -1014,7 +1014,7 @@
           "filename": "Map.js",
           "lineno": 1320,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100003865",
             "name": "Map#getTileIndexFromPixel",
@@ -1076,7 +1076,7 @@
           "filename": "Map.js",
           "lineno": 1340,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100003902",
             "name": "Map#getTilePixelPos",
@@ -1138,7 +1138,7 @@
           "filename": "Map.js",
           "lineno": 1010,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002853",
             "name": "Map#hitObjectTest",
@@ -1226,7 +1226,7 @@
           "filename": "Map.js",
           "lineno": 438,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001189",
             "name": "Map#moveObjects",
@@ -1268,7 +1268,7 @@
           "filename": "Map.js",
           "lineno": 456,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001221",
             "name": "Map#movePlatforms",
@@ -1310,7 +1310,7 @@
           "filename": "Map.js",
           "lineno": 601,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001694",
             "name": "Map#moveTo",
@@ -1370,7 +1370,7 @@
           "filename": "Map.js",
           "lineno": 1406,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004123",
             "name": "Map#notify",
@@ -1422,7 +1422,7 @@
           "filename": "Map.js",
           "lineno": 1419,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004136",
             "name": "Map#removeObject",
@@ -1472,7 +1472,7 @@
           "filename": "Map.js",
           "lineno": 234,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000606",
             "name": "Map#reset",
@@ -1502,7 +1502,7 @@
           "filename": "Map.js",
           "lineno": 208,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000525",
             "name": "Map#respawn",
@@ -1532,7 +1532,7 @@
           "filename": "Map.js",
           "lineno": 299,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000854",
             "name": "Map#setBuffer",
@@ -1573,7 +1573,7 @@
           "filename": "Map.js",
           "lineno": 199,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000508",
             "name": "Map#setEasing",
@@ -1616,7 +1616,7 @@
           "filename": "Map.js",
           "lineno": 327,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000968",
             "name": "Map#setMasterObject",
@@ -1658,7 +1658,7 @@
           "filename": "Map.js",
           "lineno": 846,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002456",
             "name": "Map#setNextX",
@@ -1720,7 +1720,7 @@
           "filename": "Map.js",
           "lineno": 904,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100002708",
             "name": "Map#setNextYTop",
@@ -1780,7 +1780,7 @@
           "filename": "Map.js",
           "lineno": 287,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000843",
             "name": "Map#setScene",
@@ -1822,7 +1822,7 @@
           "filename": "Map.js",
           "lineno": 189,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100000484",
             "name": "Map#setStartXYFromMaster",
@@ -1852,7 +1852,7 @@
           "filename": "Map.js",
           "lineno": 395,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001122",
             "name": "Map#setTilesSize",
@@ -1904,7 +1904,7 @@
           "filename": "Map.js",
           "lineno": 412,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001140",
             "name": "Map#setViewPort",
@@ -1984,7 +1984,7 @@
           "filename": "Map.js",
           "lineno": 1627,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004810",
             "name": "Map#shift",
@@ -2046,7 +2046,7 @@
           "filename": "Map.js",
           "lineno": 1442,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004214",
             "name": "Map#showTileBehaviors",
@@ -2091,7 +2091,7 @@
           "filename": "Map.js",
           "lineno": 473,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100001247",
             "name": "Map#update",
@@ -2133,7 +2133,7 @@
           "filename": "Map.js",
           "lineno": 1606,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100004746",
             "name": "Map#updateTile",
@@ -2210,7 +2210,7 @@
         "filename": "Map.js",
         "lineno": 52,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
         "code": {
           "id": "astnode100000031",
           "name": "Map",
@@ -2403,7 +2403,7 @@
       "filename": "MapEvent.js",
       "lineno": 16,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
       "code": {
         "id": "astnode100005333",
         "name": "MapEvent",
@@ -2441,7 +2441,7 @@
           "filename": "MapEvent.js",
           "lineno": 43,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005382",
             "name": "MapEvent#addItem",
@@ -2493,7 +2493,7 @@
           "filename": "MapEvent.js",
           "lineno": 85,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005461",
             "name": "MapEvent#checkConditions",
@@ -2545,7 +2545,7 @@
           "filename": "MapEvent.js",
           "lineno": 54,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005396",
             "name": "MapEvent#getItem",
@@ -2598,7 +2598,7 @@
           "filename": "MapEvent.js",
           "lineno": 74,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005448",
             "name": "MapEvent#getSwitch",
@@ -2650,7 +2650,7 @@
           "filename": "MapEvent.js",
           "lineno": 213,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005737",
             "name": "MapEvent#handleWave",
@@ -2709,7 +2709,7 @@
           "filename": "MapEvent.js",
           "lineno": 31,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005360",
             "name": "MapEvent#reset",
@@ -2739,7 +2739,7 @@
           "filename": "MapEvent.js",
           "lineno": 186,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005693",
             "name": "MapEvent#scheduleSprite",
@@ -2814,7 +2814,7 @@
         "filename": "MapEvent.js",
         "lineno": 22,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
         "code": {
           "id": "astnode100005336",
           "name": "MapEvent",
@@ -2856,7 +2856,7 @@
       "filename": "Tile.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
       "code": {
         "id": "astnode100005836",
         "name": "Tile",
@@ -2938,7 +2938,7 @@
           "filename": "Tile.js",
           "lineno": 30,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
           "code": {
             "id": "astnode100005914",
             "name": "Tile.TYPE",
@@ -2969,7 +2969,7 @@
         "filename": "Tile.js",
         "lineno": 14,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Map",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Map",
         "code": {
           "id": "astnode100005839",
           "name": "Tile",

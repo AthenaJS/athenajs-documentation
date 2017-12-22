@@ -9,7 +9,7 @@
       "filename": "Scene.js",
       "lineno": 29,
       "columnno": 0,
-      "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
       "code": {
         "id": "astnode100000564",
         "name": "Scene",
@@ -103,7 +103,7 @@
           "filename": "Scene.js",
           "lineno": 393,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001473",
             "name": "Scene#addObject",
@@ -158,7 +158,7 @@
           "filename": "Scene.js",
           "lineno": 731,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002174",
             "name": "Scene#animate",
@@ -210,7 +210,7 @@
           "filename": "Scene.js",
           "lineno": 699,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002128",
             "name": "Scene#bindEvents",
@@ -260,7 +260,7 @@
           "filename": "Scene.js",
           "lineno": 271,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001160",
             "name": "Scene#debug",
@@ -303,7 +303,7 @@
           "filename": "Scene.js",
           "lineno": 510,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001775",
             "name": "Scene#getOpacity",
@@ -343,7 +343,7 @@
           "filename": "Scene.js",
           "lineno": 626,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001991",
             "name": "Scene#getPlayTime",
@@ -383,7 +383,7 @@
           "filename": "Scene.js",
           "lineno": 193,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100000983",
             "name": "Scene#load",
@@ -417,7 +417,7 @@
           "filename": "Scene.js",
           "lineno": 226,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001038",
             "name": "Scene#loadAudio",
@@ -478,7 +478,7 @@
           "filename": "Scene.js",
           "lineno": 214,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001020",
             "name": "Scene#loadImage",
@@ -539,7 +539,7 @@
           "filename": "Scene.js",
           "lineno": 237,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001056",
             "name": "Scene#loadMap",
@@ -592,7 +592,7 @@
           "filename": "Scene.js",
           "lineno": 688,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002115",
             "name": "Scene#notify",
@@ -644,7 +644,7 @@
           "filename": "Scene.js",
           "lineno": 708,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002146",
             "name": "Scene#onEvent",
@@ -674,7 +674,7 @@
           "filename": "Scene.js",
           "lineno": 617,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001984",
             "name": "Scene#pause",
@@ -715,7 +715,7 @@
           "filename": "Scene.js",
           "lineno": 740,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002190",
             "name": "Scene#removeObject",
@@ -757,7 +757,7 @@
           "filename": "Scene.js",
           "lineno": 662,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002059",
             "name": "Scene#render",
@@ -799,7 +799,7 @@
           "filename": "Scene.js",
           "lineno": 520,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001783",
             "name": "Scene#setBackgroundImage",
@@ -849,7 +849,7 @@
           "filename": "Scene.js",
           "lineno": 717,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002150",
             "name": "Scene#setDisplay",
@@ -891,7 +891,7 @@
           "filename": "Scene.js",
           "lineno": 678,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002097",
             "name": "Scene#setLayerPriority",
@@ -942,7 +942,7 @@
           "filename": "Scene.js",
           "lineno": 346,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001342",
             "name": "Scene#setMap",
@@ -1009,7 +1009,7 @@
           "filename": "Scene.js",
           "lineno": 501,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001764",
             "name": "Scene#setOpacity",
@@ -1051,7 +1051,7 @@
           "filename": "Scene.js",
           "lineno": 535,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001836",
             "name": "Scene#setup",
@@ -1081,7 +1081,7 @@
           "filename": "Scene.js",
           "lineno": 595,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100001958",
             "name": "Scene#start",
@@ -1111,7 +1111,7 @@
           "filename": "Scene.js",
           "lineno": 645,
           "columnno": 4,
-          "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
           "code": {
             "id": "astnode100002027",
             "name": "Scene#update",
@@ -1154,7 +1154,7 @@
         "filename": "Scene.js",
         "lineno": 40,
         "columnno": 4,
-        "path": "e:\\Docs\\Dev\\athenajs\\js\\Scene",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\Scene",
         "code": {
           "id": "astnode100000567",
           "name": "Scene",
