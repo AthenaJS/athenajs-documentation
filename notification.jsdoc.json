@@ -9,7 +9,7 @@
       "filename": "NotificationManager.js",
       "lineno": 7,
       "columnno": 6,
-      "path": "E:\\Docs\\Dev\\athenajs\\js\\Notification",
+      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Notification",
       "code": {
         "id": "astnode100000007",
         "name": "NotificationManager",
@@ -35,7 +35,7 @@
           "filename": "NotificationManager.js",
           "lineno": 32,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Notification",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Notification",
           "code": {
             "id": "astnode100000057",
             "name": "listen",
@@ -84,7 +84,7 @@
           "filename": "NotificationManager.js",
           "lineno": 16,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Notification",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Notification",
           "code": {
             "id": "astnode100000010",
             "name": "notify",

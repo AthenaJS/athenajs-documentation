@@ -9,7 +9,7 @@
       "filename": "ResourceManager.js",
       "lineno": 28,
       "columnno": 6,
-      "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
       "code": {
         "id": "astnode100000058",
         "name": "ResourceManager",
@@ -35,7 +35,7 @@
           "filename": "ResourceManager.js",
           "lineno": 167,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000295",
             "name": "addResources",
@@ -102,7 +102,7 @@
           "filename": "ResourceManager.js",
           "lineno": 356,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000936",
             "name": "createObjectPool",
@@ -147,7 +147,7 @@
           "filename": "ResourceManager.js",
           "lineno": 62,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000113",
             "name": "getResourceById",
@@ -209,7 +209,7 @@
           "filename": "ResourceManager.js",
           "lineno": 447,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100001022",
             "name": "loadAudio",
@@ -273,7 +273,7 @@
           "filename": "ResourceManager.js",
           "lineno": 319,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000852",
             "name": "loadImage",
@@ -337,7 +337,7 @@
           "filename": "ResourceManager.js",
           "lineno": 511,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100001183",
             "name": "loadJSON",
@@ -405,7 +405,7 @@
           "filename": "ResourceManager.js",
           "lineno": 203,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000474",
             "name": "loadNextResource",
@@ -445,7 +445,7 @@
           "filename": "ResourceManager.js",
           "lineno": 224,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000533",
             "name": "loadResources",
@@ -513,7 +513,7 @@
           "filename": "ResourceManager.js",
           "lineno": 486,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100001124",
             "name": "loadWadAudio",
@@ -573,7 +573,7 @@
           "filename": "ResourceManager.js",
           "lineno": 95,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000177",
             "name": "newResourceFromPool",
@@ -622,7 +622,7 @@
           "filename": "ResourceManager.js",
           "lineno": 374,
           "columnno": 4,
-          "path": "E:\\Docs\\Dev\\athenajs\\js\\Resource",
+          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/Resource",
           "code": {
             "id": "astnode100000948",
             "name": "registerScript",
