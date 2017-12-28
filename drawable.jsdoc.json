@@ -140,11 +140,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -192,11 +192,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -236,11 +236,11 @@
         "comment": "/**\n     * Performs an animation on the object using one of the defined {FX} effects\n     *\n     * Effects change the object size/position using an interpolation function.\n     *\n     * Athena has the following effects:\n     * - {Fade} performs a fade\n     * - {Mosaic} performs a SNES-like mosaic effect\n     * - {Rotate} performs a rotation on the object\n     *\n     * @param {String} fxName The name of the effect to use.\n     * @param {Object} options The options of the effect.\n     * @param {String} [options.easing=\"linear\"] The easing functions to use, can be: 'linear', 'swing', 'easeInQuad', 'easeOutBounce'.\n     *\n     * @returns {Promise} a promise that will be fullfilled when the effect has been completed\n     */",
         "meta": {
           "range": [
-            22387,
-            23190
+            22444,
+            23247
           ],
           "filename": "Drawable.js",
-          "lineno": 785,
+          "lineno": 787,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -503,11 +503,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -611,14 +611,14 @@
         "$longname": "BitmapText#drawLine"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -632,6 +632,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "BitmapText#getAngle",
         "kind": "function",
@@ -698,11 +708,11 @@
         "comment": "/**\n     * Returns the current height of the object: with some types of Drawables ({Sprite}),\n     * height can vary\n     *\n     * @returns {number} The current height of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            16008,
-            16062
+            16065,
+            16119
           ],
           "filename": "Drawable.js",
-          "lineno": 590,
+          "lineno": 592,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -748,11 +758,11 @@
         "comment": "/**\n     * Returns the current width of the drawable: with some types of drawables ({Sprite}),\n     * width can vary\n     *\n     * @returns {number} The current width of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            15724,
-            15776
+            15781,
+            15833
           ],
           "filename": "Drawable.js",
-          "lineno": 578,
+          "lineno": 580,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -798,11 +808,11 @@
         "comment": "/**\n     * Returns the object's hitbox.\n     *\n     * Some drawables (eg. {Sprite} may have different hitbox for different frames.\n     *\n     * @returns {Object} an object with x, y, x2, Y2 describing the hit box\n     */",
         "meta": {
           "range": [
-            16294,
-            16465
+            16351,
+            16522
           ],
           "filename": "Drawable.js",
-          "lineno": 601,
+          "lineno": 603,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1016,11 +1026,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1058,11 +1068,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1188,11 +1198,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1250,11 +1260,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1282,11 +1292,11 @@
         "comment": "/**\n     * onHit is called when the object collides with another object\n     *\n     * @param {Drawable} obj The object that collided.\n     *\n     * This function does nothing interesting: this should be extended if needed.\n     */",
         "meta": {
           "range": [
-            21011,
-            21146
+            21068,
+            21203
           ],
           "filename": "Drawable.js",
-          "lineno": 740,
+          "lineno": 742,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1326,11 +1336,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1401,11 +1411,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1433,11 +1443,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -1547,11 +1557,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2315,11 +2325,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2357,11 +2367,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2401,11 +2411,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2499,11 +2509,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2725,7 +2735,7 @@
     "meta": {
       "range": [
         578,
-        28581
+        28638
       ],
       "filename": "Drawable.js",
       "lineno": 17,
@@ -2815,11 +2825,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2865,11 +2875,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -2907,11 +2917,11 @@
         "comment": "/**\n     * Performs an animation on the object using one of the defined {FX} effects\n     *\n     * Effects change the object size/position using an interpolation function.\n     *\n     * Athena has the following effects:\n     * - {Fade} performs a fade\n     * - {Mosaic} performs a SNES-like mosaic effect\n     * - {Rotate} performs a rotation on the object\n     *\n     * @param {String} fxName The name of the effect to use.\n     * @param {Object} options The options of the effect.\n     * @param {String} [options.easing=\"linear\"] The easing functions to use, can be: 'linear', 'swing', 'easeInQuad', 'easeOutBounce'.\n     *\n     * @returns {Promise} a promise that will be fullfilled when the effect has been completed\n     */",
         "meta": {
           "range": [
-            22387,
-            23190
+            22444,
+            23247
           ],
           "filename": "Drawable.js",
-          "lineno": 785,
+          "lineno": 787,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3094,11 +3104,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3129,14 +3139,14 @@
         "$longname": "Drawable#destroy"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3150,6 +3160,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "Drawable#getAngle",
         "kind": "function",
@@ -3162,11 +3182,11 @@
         "comment": "/**\n     * Returns the current height of the object: with some types of Drawables ({Sprite}),\n     * height can vary\n     *\n     * @returns {number} The current height of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            16008,
-            16062
+            16065,
+            16119
           ],
           "filename": "Drawable.js",
-          "lineno": 590,
+          "lineno": 592,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3210,11 +3230,11 @@
         "comment": "/**\n     * Returns the current width of the drawable: with some types of drawables ({Sprite}),\n     * width can vary\n     *\n     * @returns {number} The current width of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            15724,
-            15776
+            15781,
+            15833
           ],
           "filename": "Drawable.js",
-          "lineno": 578,
+          "lineno": 580,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3258,11 +3278,11 @@
         "comment": "/**\n     * Returns the object's hitbox.\n     *\n     * Some drawables (eg. {Sprite} may have different hitbox for different frames.\n     *\n     * @returns {Object} an object with x, y, x2, Y2 describing the hit box\n     */",
         "meta": {
           "range": [
-            16294,
-            16465
+            16351,
+            16522
           ],
           "filename": "Drawable.js",
-          "lineno": 601,
+          "lineno": 603,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3378,11 +3398,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3418,11 +3438,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3544,11 +3564,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3604,11 +3624,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3634,11 +3654,11 @@
         "comment": "/**\n     * onHit is called when the object collides with another object\n     *\n     * @param {Drawable} obj The object that collided.\n     *\n     * This function does nothing interesting: this should be extended if needed.\n     */",
         "meta": {
           "range": [
-            21011,
-            21146
+            21068,
+            21203
           ],
           "filename": "Drawable.js",
-          "lineno": 740,
+          "lineno": 742,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3676,11 +3696,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3749,11 +3769,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3779,11 +3799,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -3859,11 +3879,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4044,11 +4064,11 @@
         "comment": "/**\n     * Associates an image to the drawable.\n     *\n     * Some objects (eg. Sprite) need a source sheet image before being able to\n     * be rendered onto the display.\n     *\n     * @param {Image} image the image that this object needs to draw: redefine if needed\n     */",
         "meta": {
           "range": [
-            26009,
-            26033
+            26066,
+            26090
           ],
           "filename": "Drawable.js",
-          "lineno": 916,
+          "lineno": 918,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4424,11 +4444,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4464,11 +4484,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4506,11 +4526,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4600,11 +4620,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4833,11 +4853,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -4972,11 +4992,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5016,11 +5036,11 @@
         "comment": "/**\n     * Performs an animation on the object using one of the defined {FX} effects\n     *\n     * Effects change the object size/position using an interpolation function.\n     *\n     * Athena has the following effects:\n     * - {Fade} performs a fade\n     * - {Mosaic} performs a SNES-like mosaic effect\n     * - {Rotate} performs a rotation on the object\n     *\n     * @param {String} fxName The name of the effect to use.\n     * @param {Object} options The options of the effect.\n     * @param {String} [options.easing=\"linear\"] The easing functions to use, can be: 'linear', 'swing', 'easeInQuad', 'easeOutBounce'.\n     *\n     * @returns {Promise} a promise that will be fullfilled when the effect has been completed\n     */",
         "meta": {
           "range": [
-            22387,
-            23190
+            22444,
+            23247
           ],
           "filename": "Drawable.js",
-          "lineno": 785,
+          "lineno": 787,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5211,11 +5231,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5248,14 +5268,14 @@
         "$longname": "Menu#destroy"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5269,6 +5289,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "Menu#getAngle",
         "kind": "function",
@@ -5283,11 +5313,11 @@
         "comment": "/**\n     * Returns the current height of the object: with some types of Drawables ({Sprite}),\n     * height can vary\n     *\n     * @returns {number} The current height of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            16008,
-            16062
+            16065,
+            16119
           ],
           "filename": "Drawable.js",
-          "lineno": 590,
+          "lineno": 592,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5333,11 +5363,11 @@
         "comment": "/**\n     * Returns the current width of the drawable: with some types of drawables ({Sprite}),\n     * width can vary\n     *\n     * @returns {number} The current width of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            15724,
-            15776
+            15781,
+            15833
           ],
           "filename": "Drawable.js",
-          "lineno": 578,
+          "lineno": 580,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5383,11 +5413,11 @@
         "comment": "/**\n     * Returns the object's hitbox.\n     *\n     * Some drawables (eg. {Sprite} may have different hitbox for different frames.\n     *\n     * @returns {Object} an object with x, y, x2, Y2 describing the hit box\n     */",
         "meta": {
           "range": [
-            16294,
-            16465
+            16351,
+            16522
           ],
           "filename": "Drawable.js",
-          "lineno": 601,
+          "lineno": 603,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5509,11 +5539,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5551,11 +5581,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5681,11 +5711,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5743,11 +5773,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5775,11 +5805,11 @@
         "comment": "/**\n     * onHit is called when the object collides with another object\n     *\n     * @param {Drawable} obj The object that collided.\n     *\n     * This function does nothing interesting: this should be extended if needed.\n     */",
         "meta": {
           "range": [
-            21011,
-            21146
+            21068,
+            21203
           ],
           "filename": "Drawable.js",
-          "lineno": 740,
+          "lineno": 742,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5819,11 +5849,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5894,11 +5924,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -5926,11 +5956,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6010,11 +6040,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6203,11 +6233,11 @@
         "comment": "/**\n     * Associates an image to the drawable.\n     *\n     * Some objects (eg. Sprite) need a source sheet image before being able to\n     * be rendered onto the display.\n     *\n     * @param {Image} image the image that this object needs to draw: redefine if needed\n     */",
         "meta": {
           "range": [
-            26009,
-            26033
+            26066,
+            26090
           ],
           "filename": "Drawable.js",
-          "lineno": 916,
+          "lineno": 918,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6651,11 +6681,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6693,11 +6723,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6737,11 +6767,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -6835,11 +6865,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7080,11 +7110,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7132,11 +7162,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7542,11 +7572,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7623,14 +7653,14 @@
         "$longname": "Paint#fill"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7644,6 +7674,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "Paint#getAngle",
         "kind": "function",
@@ -7658,11 +7698,11 @@
         "comment": "/**\n     * Returns the current height of the object: with some types of Drawables ({Sprite}),\n     * height can vary\n     *\n     * @returns {number} The current height of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            16008,
-            16062
+            16065,
+            16119
           ],
           "filename": "Drawable.js",
-          "lineno": 590,
+          "lineno": 592,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7708,11 +7748,11 @@
         "comment": "/**\n     * Returns the current width of the drawable: with some types of drawables ({Sprite}),\n     * width can vary\n     *\n     * @returns {number} The current width of the object\n     *\n     * @related {Sprite}\n     */",
         "meta": {
           "range": [
-            15724,
-            15776
+            15781,
+            15833
           ],
           "filename": "Drawable.js",
-          "lineno": 578,
+          "lineno": 580,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7758,11 +7798,11 @@
         "comment": "/**\n     * Returns the object's hitbox.\n     *\n     * Some drawables (eg. {Sprite} may have different hitbox for different frames.\n     *\n     * @returns {Object} an object with x, y, x2, Y2 describing the hit box\n     */",
         "meta": {
           "range": [
-            16294,
-            16465
+            16351,
+            16522
           ],
           "filename": "Drawable.js",
-          "lineno": 601,
+          "lineno": 603,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7884,11 +7924,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -7926,11 +7966,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8056,11 +8096,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8118,11 +8158,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8150,11 +8190,11 @@
         "comment": "/**\n     * onHit is called when the object collides with another object\n     *\n     * @param {Drawable} obj The object that collided.\n     *\n     * This function does nothing interesting: this should be extended if needed.\n     */",
         "meta": {
           "range": [
-            21011,
-            21146
+            21068,
+            21203
           ],
           "filename": "Drawable.js",
-          "lineno": 740,
+          "lineno": 742,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8194,11 +8234,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8353,11 +8393,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8385,11 +8425,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8499,11 +8539,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -8692,11 +8732,11 @@
         "comment": "/**\n     * Associates an image to the drawable.\n     *\n     * Some objects (eg. Sprite) need a source sheet image before being able to\n     * be rendered onto the display.\n     *\n     * @param {Image} image the image that this object needs to draw: redefine if needed\n     */",
         "meta": {
           "range": [
-            26009,
-            26033
+            26066,
+            26090
           ],
           "filename": "Drawable.js",
-          "lineno": 916,
+          "lineno": 918,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9088,11 +9128,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9130,11 +9170,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9174,11 +9214,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9272,11 +9312,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9569,11 +9609,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9621,11 +9661,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9665,11 +9705,11 @@
         "comment": "/**\n     * Performs an animation on the object using one of the defined {FX} effects\n     *\n     * Effects change the object size/position using an interpolation function.\n     *\n     * Athena has the following effects:\n     * - {Fade} performs a fade\n     * - {Mosaic} performs a SNES-like mosaic effect\n     * - {Rotate} performs a rotation on the object\n     *\n     * @param {String} fxName The name of the effect to use.\n     * @param {Object} options The options of the effect.\n     * @param {String} [options.easing=\"linear\"] The easing functions to use, can be: 'linear', 'swing', 'easeInQuad', 'easeOutBounce'.\n     *\n     * @returns {Promise} a promise that will be fullfilled when the effect has been completed\n     */",
         "meta": {
           "range": [
-            22387,
-            23190
+            22444,
+            23247
           ],
           "filename": "Drawable.js",
-          "lineno": 785,
+          "lineno": 787,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9932,11 +9972,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9969,14 +10009,14 @@
         "$longname": "SimpleText#destroy"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -9990,6 +10030,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "SimpleText#getAngle",
         "kind": "function",
@@ -10321,11 +10371,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10363,11 +10413,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10493,11 +10543,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10555,11 +10605,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10630,11 +10680,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10735,11 +10785,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10767,11 +10817,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -10881,11 +10931,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -11116,11 +11166,11 @@
         "comment": "/**\n     * Associates an image to the drawable.\n     *\n     * Some objects (eg. Sprite) need a source sheet image before being able to\n     * be rendered onto the display.\n     *\n     * @param {Image} image the image that this object needs to draw: redefine if needed\n     */",
         "meta": {
           "range": [
-            26009,
-            26033
+            26066,
+            26090
           ],
           "filename": "Drawable.js",
-          "lineno": 916,
+          "lineno": 918,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -11596,11 +11646,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -11638,11 +11688,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -11682,11 +11732,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -11780,11 +11830,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12210,11 +12260,11 @@
         "comment": "/**\n     * Add a new Child to the object.\n     *\n     * Childs are automatically rendered and moved when the parent object is.\n     *\n     * @param {Drawable} child The child to add.\n     *\n     * @note children are automatically added to the scene/map of the parent object.\n     */",
         "meta": {
           "range": [
-            24941,
-            25082
+            24998,
+            25139
           ],
           "filename": "Drawable.js",
-          "lineno": 875,
+          "lineno": 877,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12262,11 +12312,11 @@
         "comment": "/**\n     * Add a new handler to be called after each move of the object\n     *\n     * @param {Function} cb The callback to add.\n     */",
         "meta": {
           "range": [
-            20708,
-            20770
+            20765,
+            20827
           ],
           "filename": "Drawable.js",
-          "lineno": 729,
+          "lineno": 731,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12348,11 +12398,11 @@
         "comment": "/**\n     * Performs an animation on the object using one of the defined {FX} effects\n     *\n     * Effects change the object size/position using an interpolation function.\n     *\n     * Athena has the following effects:\n     * - {Fade} performs a fade\n     * - {Mosaic} performs a SNES-like mosaic effect\n     * - {Rotate} performs a rotation on the object\n     *\n     * @param {String} fxName The name of the effect to use.\n     * @param {Object} options The options of the effect.\n     * @param {String} [options.easing=\"linear\"] The easing functions to use, can be: 'linear', 'swing', 'easeInQuad', 'easeOutBounce'.\n     *\n     * @returns {Promise} a promise that will be fullfilled when the effect has been completed\n     */",
         "meta": {
           "range": [
-            22387,
-            23190
+            22444,
+            23247
           ],
           "filename": "Drawable.js",
-          "lineno": 785,
+          "lineno": 787,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12615,11 +12665,11 @@
         "comment": "/**\n     * Destroy is called when an object is removed from a scene or object\n     *\n     * @note calling destroy on a parent will automatically call the destroy method of each child.\n     */",
         "meta": {
           "range": [
-            28061,
-            28579
+            28118,
+            28636
           ],
           "filename": "Drawable.js",
-          "lineno": 982,
+          "lineno": 984,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12652,14 +12702,14 @@
         "$longname": "Sprite#destroy"
       },
       {
-        "comment": "/**\n     * Returns the angle property of the object.\n     */",
+        "comment": "/**\n     * Returns the angle property of the object.\n     * \n     * @returns {Number} The angle of the object\n     */",
         "meta": {
           "range": [
-            14278,
-            14323
+            14335,
+            14380
           ],
           "filename": "Drawable.js",
-          "lineno": 508,
+          "lineno": 510,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -12673,6 +12723,16 @@
           }
         },
         "description": "Returns the angle property of the object.",
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Number"
+              ]
+            },
+            "description": "The angle of the object"
+          }
+        ],
         "name": "getAngle",
         "longname": "Sprite#getAngle",
         "kind": "function",
@@ -13015,11 +13075,11 @@
         "comment": "/**\n     * Hides the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14653,
-            14719
+            14710,
+            14776
           ],
           "filename": "Drawable.js",
-          "lineno": 530,
+          "lineno": 532,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13057,11 +13117,11 @@
         "comment": "/**\n     * Performs collision tests on the specifed object.\n     *\n     * @param {Drawable} obj The object to perform test on\n     *\n     * @returns {Boolean} Returns true if this and obj collide\n     */",
         "meta": {
           "range": [
-            19023,
-            20296
+            19080,
+            20353
           ],
           "filename": "Drawable.js",
-          "lineno": 676,
+          "lineno": 678,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13290,11 +13350,11 @@
         "comment": "/**\n     * Sends a notification to listeners\n     *\n     * @note: this is a simple wrapper to the NotificationManageger's notify method\n     *\n     * @param {String} id name of the event to send\n     * @param {Object} data data to send with the event, default = empty object\n     */",
         "meta": {
           "range": [
-            27703,
-            27779
+            27760,
+            27836
           ],
           "filename": "Drawable.js",
-          "lineno": 971,
+          "lineno": 973,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13436,11 +13496,11 @@
         "comment": "/**\n     * onCollision is called on each collision with the object.\n     *\n     * This method does nothing and should be extended if needed.\n     *\n     */",
         "meta": {
           "range": [
-            24626,
-            24648
+            24683,
+            24705
           ],
           "filename": "Drawable.js",
-          "lineno": 862,
+          "lineno": 864,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13511,11 +13571,11 @@
         "comment": "/**\n     * Plays the spcified sound\n     *\n     * @param {String} id The id of the sound to play.\n     * @param {Object} options\n     * @param {Boolean} [options.pan=true] Set pan to true if you want to use panning.\n     * @param {Boolean} [options.loop=false] Set to true to loop the sound.\n     */",
         "meta": {
           "range": [
-            26724,
-            27410
+            26781,
+            27467
           ],
           "filename": "Drawable.js",
-          "lineno": 941,
+          "lineno": 943,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13586,11 +13646,11 @@
         "comment": "/**\n     * Remove every children from the object.\n     */",
         "meta": {
           "range": [
-            25555,
-            25723
+            25612,
+            25780
           ],
           "filename": "Drawable.js",
-          "lineno": 901,
+          "lineno": 903,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13618,11 +13678,11 @@
         "comment": "/**\n     * Remove a child from the object\n     *\n     * @param {Drawable} child The child to remove from the object.\n     *\n     * @note: removing a child object will call its `destroy` method.\n     */",
         "meta": {
           "range": [
-            25294,
-            25487
+            25351,
+            25544
           ],
           "filename": "Drawable.js",
-          "lineno": 889,
+          "lineno": 891,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -13702,11 +13762,11 @@
         "comment": "/**\n     * Restores the previous context globalAlpha property.\n     *\n     * @param {RenderingContext} ctx The context.\n     */",
         "meta": {
           "range": [
-            15423,
-            15493
+            15480,
+            15550
           ],
           "filename": "Drawable.js",
-          "lineno": 566,
+          "lineno": 568,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -14447,11 +14507,11 @@
         "comment": "/**\n     * Show the object\n     *\n     * @returns {Drawable} this\n     */",
         "meta": {
           "range": [
-            14803,
-            14868
+            14860,
+            14925
           ],
           "filename": "Drawable.js",
-          "lineno": 541,
+          "lineno": 543,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -14489,11 +14549,11 @@
         "comment": "/**\n     * Draws the sprite hit box\n     *\n     * @param {RenderingContext} The canvas context where to render the hitbox.\n     */",
         "meta": {
           "range": [
-            16606,
-            18119
+            16663,
+            18176
           ],
           "filename": "Drawable.js",
-          "lineno": 615,
+          "lineno": 617,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -14533,11 +14593,11 @@
         "comment": "/**\n       * Draws a box around objects. This method is called when debugging is enabled.\n       *\n       * @param {RenderingContext} ctx The context where to draw the box.\n       */",
         "meta": {
           "range": [
-            18312,
-            18686
+            18369,
+            18743
           ],
           "filename": "Drawable.js",
-          "lineno": 654,
+          "lineno": 656,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
@@ -14661,11 +14721,11 @@
         "comment": "/**\n     * Stops current running animation\n     *\n     * In some cases, the game may need to stop effects from running before\n     * they are completed. This method proves a way to do so and set an end value.\n     *\n     * @param {any} setEndValue The end value of the animation.\n     */",
         "meta": {
           "range": [
-            23488,
-            23820
+            23545,
+            23877
           ],
           "filename": "Drawable.js",
-          "lineno": 819,
+          "lineno": 821,
           "columnno": 4,
           "path": "E:\\Docs\\Dev\\athenajs\\js\\Drawable",
           "code": {
