@@ -9,7 +9,7 @@
       "filename": "Custom.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000163",
         "name": "Custom",
@@ -97,7 +97,7 @@
           "filename": "Custom.js",
           "lineno": 36,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000198",
             "name": "Custom#process",
@@ -160,7 +160,7 @@
           "filename": "Effect.js",
           "lineno": 45,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000350",
             "name": "Effect#setEasing",
@@ -204,7 +204,7 @@
           "filename": "Effect.js",
           "lineno": 54,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000361",
             "name": "Effect#start",
@@ -236,7 +236,7 @@
           "filename": "Effect.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000406",
             "name": "Effect#stop",
@@ -272,7 +272,7 @@
         "filename": "Custom.js",
         "lineno": 20,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
         "code": {
           "id": "astnode100000167",
           "name": "Custom",
@@ -361,7 +361,7 @@
       "filename": "Easing.js",
       "lineno": 7,
       "columnno": 6,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Easing",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Easing",
       "code": {
         "id": "astnode100000007",
         "name": "Easing",
@@ -387,7 +387,7 @@
       "filename": "Effect.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000239",
         "name": "Effect",
@@ -471,7 +471,7 @@
           "filename": "Effect.js",
           "lineno": 80,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000418",
             "name": "Effect#process",
@@ -505,7 +505,7 @@
           "filename": "Effect.js",
           "lineno": 45,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000350",
             "name": "Effect#setEasing",
@@ -547,7 +547,7 @@
           "filename": "Effect.js",
           "lineno": 54,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000361",
             "name": "Effect#start",
@@ -577,7 +577,7 @@
           "filename": "Effect.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000406",
             "name": "Effect#stop",
@@ -611,7 +611,7 @@
         "filename": "Effect.js",
         "lineno": 21,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
         "code": {
           "id": "astnode100000242",
           "name": "Effect",
@@ -699,7 +699,7 @@
       "filename": "Fade.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000531",
         "name": "Fade",
@@ -777,7 +777,7 @@
           "filename": "Fade.js",
           "lineno": 48,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000612",
             "name": "Fade#process",
@@ -839,7 +839,7 @@
           "filename": "Effect.js",
           "lineno": 45,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000350",
             "name": "Effect#setEasing",
@@ -883,7 +883,7 @@
           "filename": "Fade.js",
           "lineno": 35,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000597",
             "name": "Fade#start",
@@ -914,7 +914,7 @@
           "filename": "Effect.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000406",
             "name": "Effect#stop",
@@ -950,7 +950,7 @@
         "filename": "Fade.js",
         "lineno": 20,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
         "code": {
           "id": "astnode100000535",
           "name": "Fade",
@@ -1029,7 +1029,7 @@
       "filename": "FX.js",
       "lineno": 18,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
       "code": {
         "id": "astnode100001035",
         "name": "FX",
@@ -1059,7 +1059,7 @@
           "filename": "FX.js",
           "lineno": 52,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
           "code": {
             "id": "astnode100001072",
             "name": "FX#addEasing",
@@ -1111,7 +1111,7 @@
           "filename": "FX.js",
           "lineno": 32,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
           "code": {
             "id": "astnode100001051",
             "name": "FX#addFX",
@@ -1163,7 +1163,7 @@
           "filename": "FX.js",
           "lineno": 62,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
           "code": {
             "id": "astnode100001084",
             "name": "FX#getEasing",
@@ -1215,7 +1215,7 @@
           "filename": "FX.js",
           "lineno": 42,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
           "code": {
             "id": "astnode100001063",
             "name": "FX#getEffect",
@@ -1268,7 +1268,7 @@
         "filename": "FX.js",
         "lineno": 22,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX",
         "code": {
           "id": "astnode100001038",
           "name": "FX",
@@ -1299,7 +1299,7 @@
       "filename": "Mosaic.js",
       "lineno": 74,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000854",
         "name": "module.exports",
@@ -1324,7 +1324,7 @@
       "filename": "Mosaic.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000660",
         "name": "Mosaic",
@@ -1411,7 +1411,7 @@
           "filename": "Mosaic.js",
           "lineno": 54,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000758",
             "name": "Mosaic#process",
@@ -1454,7 +1454,7 @@
           "filename": "Effect.js",
           "lineno": 45,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000350",
             "name": "Effect#setEasing",
@@ -1498,7 +1498,7 @@
           "filename": "Mosaic.js",
           "lineno": 42,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000737",
             "name": "Mosaic#start",
@@ -1529,7 +1529,7 @@
           "filename": "Effect.js",
           "lineno": 71,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000406",
             "name": "Effect#stop",
@@ -1565,7 +1565,7 @@
         "filename": "Mosaic.js",
         "lineno": 21,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
         "code": {
           "id": "astnode100000664",
           "name": "Mosaic",
@@ -1653,7 +1653,7 @@
       "filename": "Rotate.js",
       "lineno": 10,
       "columnno": 0,
-      "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+      "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
       "code": {
         "id": "astnode100000862",
         "name": "Rotate",
@@ -1723,7 +1723,7 @@
           "filename": "Rotate.js",
           "lineno": 64,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000968",
             "name": "Rotate#process",
@@ -1796,7 +1796,7 @@
           "filename": "Effect.js",
           "lineno": 45,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000350",
             "name": "Effect#setEasing",
@@ -1840,7 +1840,7 @@
           "filename": "Rotate.js",
           "lineno": 36,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000934",
             "name": "Rotate#start",
@@ -1871,7 +1871,7 @@
           "filename": "Rotate.js",
           "lineno": 49,
           "columnno": 4,
-          "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+          "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
           "code": {
             "id": "astnode100000951",
             "name": "Rotate#stop",
@@ -1925,7 +1925,7 @@
         "filename": "Rotate.js",
         "lineno": 20,
         "columnno": 4,
-        "path": "/Volumes/HDD2/Docs/Dev/athenajs/js/FX/Effect",
+        "path": "E:\\Docs\\Dev\\athenajs\\js\\FX\\Effect",
         "code": {
           "id": "astnode100000866",
           "name": "Rotate",
