@@ -7835,4 +7835,29 @@ pre code {
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
   word-break: normal !important;
 }
+.navbar-nav > li:last-child {
+  position: absolute;
+  left: -54px;
+}
+.navbar-nav {
+  position: relative;
+}
+.navbar.api .navbar-nav {
+  margin-left: 100px;
+}
+.navbar .algolia-autocomplete {
+  margin-left: 165px;
+}
+.navbar.api .algolia-autocomplete {
+  margin-left: 300px;
+  width: 20%;
+}
+/* no idea why but results appear incorrectly at the right in this case */
+.algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu {
+  left: 0!important;
+  right: inherit!important;
+}
+.algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu:before {
+  left: 48px;
+}
 /* / search */
