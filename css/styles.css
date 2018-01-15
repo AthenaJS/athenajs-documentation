@@ -7829,9 +7829,6 @@ pre code {
 #docma-main.hide-search .algolia-autocomplete {
   display: none !important;
 }
-.algolia-autocomplete .algolia-docsearch-suggestion--highlight {
-  background: rgba(143, 187, 237, 0.5) !important;
-}
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
   word-break: normal !important;
 }
@@ -7859,5 +7856,11 @@ pre code {
 }
 .algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu:before {
   left: 48px;
+}
+.ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
+  background: rgba(143, 187, 237, 0.5) !important;
+}
+.algolia-autocomplete .algolia-docsearch-suggestion--highlight {
+  background-color: rgba(252, 255, 66, 0.3) !important;
 }
 /* / search */
