@@ -1,16 +1,15 @@
 
 <html><head></head><body><h1 id="athenajs">AthenaJS</h1>
 <hr />
-<p><img src="https://img.shields.io/npm/v/athenajs.svg" alt="npm">
-<img src="https://img.shields.io/github/release/athenajs/athenajs.svg" alt="release">
-<img src="http://img.shields.io/npm/l/athenajs.svg" alt="license">
-<img src="https://img.shields.io/maintenance/yes/2017.svg" alt="maintained"></p>
+<p><img src="https://img.shields.io/npm/v/athenajs.svg" alt="npm" style="max-width: 100%;">
+<img src="https://img.shields.io/github/release/athenajs/athenajs.svg" alt="release" style="max-width: 100%;">
+<img src="http://img.shields.io/npm/l/athenajs.svg" alt="license" style="max-width: 100%;">
+<img src="https://img.shields.io/maintenance/yes/2017.svg" alt="maintained" style="max-width: 100%;"></p>
 <blockquote>
 <p>© 2017, Nicolas Ramz (<a href="https://www.github.com/warpdesign">@warpdesign</a>). MIT licence.</p>
 </blockquote>
-<p>A simple framework for building 2D games in HTML5 and JavaScript.</p>
-<p>Like this one:</p>
-<p><img src="https://raw.githubusercontent.com/AthenaJS/athenajs/docs/img/gods.png" alt="Gods"></p>
+<p>A simple framework for building 2D games in HTML5 and JavaScript like this one:</p>
+<p><a href="https://athenajs.github.io/athenajs-gods/"><img src="https://raw.githubusercontent.com/AthenaJS/athenajs/docs/img/gods.png" alt="Gods" style="max-width: 100%;"></a></p>
 <ul>
 <li>Read the <a href="https://athenajs.github.io/athenajs-documentation/?content=start">tutorials</a> to get started with AthenaJS</li>
 <li>Visit the <a href="https://athenajs.github.io/athenajs-documentation/">API documentation</a> for a list of classes and methods available</li>
@@ -19,7 +18,7 @@
 </ul>
 <h1 id="features">Features</h1>
 <hr />
-<p>Here is a non-exhaustive list of features of AthenaJS:</p>
+<p> Here is a non-exhaustive list of features of AthenaJS:</p>
 <ul>
 <li>Unlimited number of scenes with an unlimited number of sprites</li>
 <li>Image-based <strong>Sprites</strong> with any number of <strong>animations</strong></li>
@@ -36,104 +35,101 @@
 <p>The easiest way to start using AthenaJS is to clone the <a href="https://github.com/AthenaJS/athenajs-webpack-starter">athenajs-webpack-starter</a>:</p>
 <pre><code>git clone https://github.com/AthenaJS/athenajs-webpack-starter.git
 cd athenajs-webpack-starter
-npm install &amp;&amp; npm start
-</code></pre><p>This will install the necessary dependencies and configuration files to get you started working with AthenaJS using ES2015 and Webpack and create a development server on <code>http://127.0.0.1:8888</code>.</p>
+npm install &amp;&amp; npm start</code></pre><p>This will install the necessary dependencies and configuration files to get you started working with AthenaJS using ES2015 and Webpack and create a development server on <code>http://127.0.0.1:8888</code>.</p>
 <p>You can then edit the file <code>js/main.js</code>.</p>
 <p><strong>Manual Way</strong></p>
 <p>You can of course install AthenaJS by yourself using <code>npm</code>:</p>
-<pre><code class="lang-bash">npm install athenajs --save
-</code></pre>
+<pre><code class="bash">npm install athenajs --save</code></pre>
 <p>Or if you're as old school as me, maybe you'll like to do it the way ancients do it :)</p>
-<pre><code class="lang-html">&lt;script type="text/javascript" src="https://npm-cdn.herokuapp.com/athenajs@0.1.0/dist/athena.js"&gt;&lt;/script&gt;
-</code></pre>
+<pre><code class="html">&lt;script type="text/javascript" src="https://npm-cdn.herokuapp.com/athenajs@0.1.0/dist/athena.js"&gt;&lt;/script&gt;</code></pre>
 <h1 id="quick-start">Quick Start</h1>
 <hr />
 <p>Once installed, here is how you may start using AthenaJS:</p>
 <p><strong>ES2015</strong></p>
-<pre><code class="lang-javascript">import { Game, Scene, SimpleText } from "athenajs";
+<pre><code class="javascript">import { Game, Scene, SimpleText } from 'athenajs';
 
 // create a new game
 const myGame = new Game({
-    name: "first-game",
+    name: 'first-game',
     width: 320,
     height: 200
-  }),
-  // create a new empty scene
-  myScene = new class MyScene extends Scene {
+}),
+// create a new empty scene
+myScene = new class MyScene extends Scene{
     start() {
-      const myText = new SimpleText("my text", {
-        text: "This is a test",
-        color: "black"
-      });
-      // add the object onto the scene
-      this.addObject(myText);
-    }
-  }();
-
-// play this scene
-myGame.setScene(myScene);
-</code></pre>
-<p><strong>ES5</strong></p>
-<p>in your html file:</p>
-<pre><code class="lang-html">&lt;script type="text/javascript" src="athenajs.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript"&gt;
-    // athenajs exports a global AthenaJS object for ES5
-    var Game = AthenaJS.Game,
-        Scene = AthenaJS.Scene,
-        SimpleText = AthenaJS.SimpleText;
-
-    // create a new game instance
-    var myGame = new Game({
-        name: 'first-game',
-        width: 320,
-        height: 200
-    });
-
-    // first extend the scene class which results in lots of code in Es5
-    // call Scene constructor from MyScene constructor
-    function MyScene() {
-        Scene.call(this);
-    }
-
-    // inherit from Scene.prototype
-    MyScene.prototype = Object.create(Scene.prototype);
-
-    // redefine the start() method
-    MyScene.prototype.start = function () {
-        var myText = new SimpleText('my text', {
+        const myText = new SimpleText('my text', {
             text: 'This is a test',
             color: 'black'
         });
         // add the object onto the scene
         this.addObject(myText);
     }
+};
 
-    // finally correctly set the constructor to MyScene
-    MyScene.prototype.constructor = MyScene;
+// play this scene
+myGame.setScene(myScene);</code></pre>
+<p><strong>ES5</strong></p>
+<p>in your html file:</p>
+<pre><code class="html">&lt;script type="text/javascript" src="athenajs.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+    window.onload = function () {
+        var Game = AthenaJS.Game,
+            Scene = AthenaJS.Scene,
+            SimpleText = AthenaJS.SimpleText;
 
-    var myScene = new MyScene();
+        // create a new game
+        var myGame = new Game({
+            name: 'first-game',
+            width: 320,
+            height: 200
+        });
 
-    // // play this scene
-    myGame.setScene(myScene);
-&lt;/script&gt;
-</code></pre>
+        // first extend the scene class which results in lots of code in Es5
+        // call Scene constructor from MyScene constructor
+        function MyScene() {
+            Scene.call(this);
+        }
+
+        // inherit from Scene.prototype
+        MyScene.prototype = Object.create(Scene.prototype);
+
+        // redefine the start() method
+        MyScene.prototype.start = function () {
+            var myText = new SimpleText('my text', {
+                text: 'This is a test',
+                color: 'black'
+            });
+            // add the object onto the scene
+            this.addObject(myText);
+        }
+
+        // finally correctly set the constructor to MyScene
+        MyScene.prototype.constructor = MyScene;
+
+        var myScene = new MyScene();
+
+        // // play this scene
+        myGame.setScene(myScene);
+    };
+&lt;/script&gt;</code></pre>
 <h2 id="apps-written-using-athenajs">Apps written using AthenaJS</h2>
+<hr />
 <ul>
 <li><a href="https://athenajs.github.io/athenajs-gods/">Gods</a></li>
 <li><a href="https://github.com/AthenaJS/athenajs-tetris">Tetris</a></li>
 <li><a href="https://github.com/AthenaJS/athenajs-samples">Athena-Samples</a></li>
 </ul>
 <h2 id="contributing">Contributing</h2>
+<hr />
 <p>If you are interested in contributing to the AthenaJS code base, simply fork the <a href="https://www.github.com/athenajs/athenajs">repository</a> and make a pull-request.</p>
 <p>Once you have cloned the repository, simply type:</p>
-<pre><code class="lang-bash">npm install &amp;&amp; npm link &amp;&amp; npm start
-</code></pre>
+<pre><code class="bash">npm install &amp;&amp; npm link &amp;&amp; npm start</code></pre>
 <p>This will install the prerequisites, add a link to athenajs into your global npm modules directory and build &amp; start watching for changes.</p>
 <p>Now to start using athenaJS for testing, simply type the following in the directory of your project using AthenaJS:</p>
-<pre><code class="lang-bash">npm link athenajs
-</code></pre>
+<pre><code class="bash">npm link athenajs</code></pre>
 <p>This will add a link from your project to the global athenajs link that was just created.</p>
 <h2 id="license">License</h2>
+<hr />
 <p>Copyright (c) Nicolas Ramz.</p>
 <p>Licensed under the <a href="LICENSE">MIT</a> License.</p>
 </body></html>
